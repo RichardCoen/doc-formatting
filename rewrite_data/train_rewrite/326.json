@@ -1,0 +1,6 @@
+{
+    "id": "326",
+    "rewrite1": "Revise the formatting for the fifth paragraph as follows: Set the text color to Black and apply a highlight using the hex code #FF00FF. Implement a hanging indent of 1 character and enlarge the font to 48 points. Additionally, adjust the spacing before the paragraph to equal one line.",
+    "rewrite2": "Alter the formatting of the fifth paragraph as follows: Set the text color to Black, apply a background highlight using the hex code #FF00FF, adjust the indent to a 1-character Hanging indent, enlarge the font to 48 points, and increase the space before the paragraph to the equivalent of one line.",
+    "rewrite3": "For the fifth paragraph, please do the following: \n\n- Alter the text color to Black.\n- Apply a highlight with the hex code #FF00FF.\n- Adjust the indentation to a Hanging indent of 1 character.\n- Increase the font size to 48 points.\n- Set the spacing before the paragraph to the equivalent of one line."
+}

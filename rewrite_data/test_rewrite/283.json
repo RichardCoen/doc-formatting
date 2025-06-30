@@ -1,0 +1,6 @@
+{
+    "id": "283",
+    "rewrite1": "Please apply the following formatting changes to the selected text: alter the highlight color to the hexadecimal value #0000FF, adjust the left indent to be reduced by one character, and make sure to embolden the text.",
+    "rewrite2": "For the selected text, apply a highlight using the color with the hex code #0000FF, adjust the left indent by reducing it by one character, and make the text bold.",
+    "rewrite3": "Please apply the following formatting changes to the selected text: Update the highlight color to the hexadecimal code #0000FF, adjust the left indent to a negative value of one character, and ensure the text is emboldened."
+}

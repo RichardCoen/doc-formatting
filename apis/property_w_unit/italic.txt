@@ -1,0 +1,9 @@
+[italic]: Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise.
+```TypeScript
+italic: boolean;
+```
+Example:
+```javascript
+font.italic = true;
+```
+----------------

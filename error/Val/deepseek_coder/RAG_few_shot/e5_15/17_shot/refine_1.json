@@ -1,0 +1,17 @@
+{
+    "dataset": "Val",
+    "model": "deepseek_coder",
+    "method": "RAG_few_shot/e5_15/17_shot",
+    "error_rate": {
+        "TypeError": 0.44537815126050423,
+        "RichApi.Error": 0.5042016806722689,
+        "ReferenceError": 0.03361344537815126,
+        "SyntaxError": 0.01680672268907563
+    },
+    "error_count": {
+        "TypeError": 53,
+        "RichApi.Error": 60,
+        "ReferenceError": 4,
+        "SyntaxError": 2
+    }
+}

@@ -1,0 +1,10 @@
+[lines]: 1 line width is 1 font size in points. Read the size of the character as a line spacing
+Example:
+```javascript
+// make spaceAfter as 1 line
+font.load(\"size\");
+await context.sync();
+var fontsize =font.size;
+paragraph.spaceAfter = fontsize;
+```
+----------------

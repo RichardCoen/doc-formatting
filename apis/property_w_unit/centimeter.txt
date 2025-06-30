@@ -1,0 +1,6 @@
+[centimeter]: 1cm = 28.35 points
+Example:
+```javascript
+lingScaping = 28.35;//make lingScaping 1 cm
+```
+----------------

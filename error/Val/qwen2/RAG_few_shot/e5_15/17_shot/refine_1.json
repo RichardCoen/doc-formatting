@@ -1,0 +1,17 @@
+{
+    "dataset": "Val",
+    "model": "qwen2",
+    "method": "RAG_few_shot/e5_15/17_shot",
+    "error_rate": {
+        "RichApi.Error": 0.7571428571428571,
+        "ReferenceError": 0.02857142857142857,
+        "TypeError": 0.18571428571428572,
+        "SyntaxError": 0.02857142857142857
+    },
+    "error_count": {
+        "RichApi.Error": 106,
+        "ReferenceError": 4,
+        "TypeError": 26,
+        "SyntaxError": 4
+    }
+}

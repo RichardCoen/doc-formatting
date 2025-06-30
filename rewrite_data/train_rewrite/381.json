@@ -1,0 +1,6 @@
+{
+    "id": "381",
+    "rewrite1": "For the specified section, adjust the left indent to 1 character and remove any existing highlight formatting. Ensure there is no spacing before the paragraph begins, and align the text to the left. Apply a heavy wave underline for emphasis. Set the line spacing to double, and switch the text font to Times New Roman. Lastly, format the outline level to Level 5.",
+    "rewrite2": "Begin by adjusting the left indent of the chosen section to 1 character. Remove any existing highlight formatting from this portion. Ensure there is no space before the start of the paragraph by setting it to 0. Align the text to the left. Apply a thick wavy underline for emphasis. Change the line spacing to double for better readability. Switch the typeface to Times New Roman for a classic appearance. Lastly, set the outline level formatting to Level 5.",
+    "rewrite3": "Please adjust the formatting for the highlighted section as follows: Change the left indent to 1 character, remove any existing highlight formatting, and set the spacing before the paragraph to zero lines. Align the text to the left, apply a thick wavy underline, and set the line spacing to double. Change the font to Times New Roman and format the outline level to Level 5."
+}

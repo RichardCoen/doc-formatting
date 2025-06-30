@@ -1,0 +1,7 @@
+[points]: Default length unit
+Example:
+```javascript
+// make font size 16 points
+font.size = 16;
+```
+----------------

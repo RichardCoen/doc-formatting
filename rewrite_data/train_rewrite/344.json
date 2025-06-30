@@ -1,0 +1,6 @@
+{
+    "id": "344",
+    "rewrite1": "In the second paragraph, please do the following: Clear all bold styling, set the right indent to 12 points, apply a lime highlight to the text, change the left indent to half a character's width, and change the font to Times New Roman.",
+    "rewrite2": "Proceed to the second paragraph and first strip away any bold styling from the text. Then, modify the right indent, setting it to 12 points. Next, apply a lime shade to highlight the entire paragraph. Adjust the left indent to be equivalent to half the width of a single character. Finally, change the paragraph's font to Times New Roman.",
+    "rewrite3": "In the second paragraph, please undo any text that's been set in bold. Then, modify the right indent to 12 points. Afterward, apply a lime-colored highlight to the entire paragraph. Adjust the left indent to be equivalent to the width of a half character. Finally, change the paragraph's font to Times New Roman."
+}

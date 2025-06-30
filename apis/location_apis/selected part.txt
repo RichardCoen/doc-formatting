@@ -1,0 +1,12 @@
+[getSelection()]: Gets the current selection of the document. Multiple selections are not supported.
+```TypeScript
+return:Word.Range;
+```
+Example:
+```javascript
+const range = context.document.getSelection();
+var paragraphs = range.paragraphs;
+var first_paragraph = range.paragraphs.getFirst();
+var font = range.font;
+```
+----------------

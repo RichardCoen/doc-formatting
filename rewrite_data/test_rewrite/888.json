@@ -1,0 +1,6 @@
+{
+    "id": "888",
+    "rewrite1": "For the selected portion of text, please apply the following changes: \n1. Italicize the text.\n2. Change the font to Calibri Light. \n3. Ensure that there is no underline formatting.\n4. Adjust the text color to the hex value #FAFAD2.\n5. Introduce a 6-point space above the paragraph.\n6. Set the font size to 10.5 points.",
+    "rewrite2": "Please proceed with the following adjustments to the selected text: Apply italic formatting, switch the font to Calibri Light, and ensure there is no underlining. Alter the text color to the hex code #FAFAD2, introduce a 6-point spacing above the paragraph, and adjust the font size to 10.5 points.",
+    "rewrite3": "Please proceed with the following adjustments to the selected text: First, italicize the text. Next, switch the font style to 'Calibri Light' and ensure that any underlining is removed. Change the text color to the hexadecimal code #FAFAD2. Introduce a 6-point spacing before the paragraph, and finally, adjust the font size to 10.5 points."
+}

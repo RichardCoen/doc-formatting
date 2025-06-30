@@ -1,0 +1,9 @@
+leftIndent: Specifies the left indent value of the paragraph in points.
+```TypeScript
+leftIndent: number;
+```
+Example:
+```javascript
+paragraph.leftIndent = 10;
+```
+----------------

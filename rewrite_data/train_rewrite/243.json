@@ -1,0 +1,6 @@
+{
+    "id": "243",
+    "rewrite1": "Please make the following adjustments to the second paragraph: Clear all existing bold styling, change the font color to the hexadecimal value of #FFFF00, adjust the left indent by reducing it by one character, assign an Outline Level 1 to the paragraph, and ensure that any highlight color is removed.",
+    "rewrite2": "For the second paragraph, please proceed with the following changes:\n- Clear any existing bold styling.\n- Change the font color to the hex value #FFFF00.\n- Adjust the left indent to a negative 1-character offset.\n- Assign Level 1 Outline formatting.\n- Eliminate any background highlight color that may be present.",
+    "rewrite3": "For the second paragraph, please proceed with the following adjustments: Strip away all bold styling, change the font color to the hexadecimal value #FFFF00, adjust the left indent by reducing it by one character, apply an Outline at Level 1, and eliminate any existing highlight coloring."
+}

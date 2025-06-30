@@ -1,0 +1,9 @@
+[strikeThrough]: Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise.
+```TypeScript
+strikeThrough: boolean;
+```
+Example:
+```javascript
+font.strikeThrough = true;
+```
+----------------

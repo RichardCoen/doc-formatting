@@ -1,0 +1,9 @@
+[paragraphs.items]: Gets the loaded children in this collection. Must be called before reading properties context.sync().
+Example:
+```javascript
+const paragraphs = context.document.body.paragraphs;
+paragraphs.load("$none");
+await context.sync();
+const paragraph = paragraphs.items[1];
+```
+----------------

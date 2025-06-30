@@ -1,0 +1,6 @@
+{
+    "id": "567",
+    "rewrite1": "Please take the following steps to format the selected text: First, italicize the text. Then, create a first line indent of 1 centimeter. Adjust the right indent to 0.5 characters and set the left indent to a negative value of 1 character. Finally, ensure that the line spacing is set to exactly 12 points.",
+    "rewrite2": "For the selected text, please format it in italics. Then adjust the first line indent to 1 centimeter. Set the right indent at 0.5 characters, and the left indent should be negative 1 character. Lastly, ensure the line spacing is fixed at exactly 12 points.",
+    "rewrite3": "Select the desired text and format it with italics. Adjust the first line indentation to 1 centimeter. Set the right indent to 0.5 characters and the left indent to -1 character. Finally, set the line spacing to exactly 12 points."
+}

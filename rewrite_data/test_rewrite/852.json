@@ -1,0 +1,6 @@
+{
+    "id": "852",
+    "rewrite1": "In the seventh paragraph, please switch the font to Calibri. Adjust the left indent so it's reduced by 0.5 character spaces. After the paragraph, insert a 10-point spacing. Ensure the text is italicized, remove any instances of bold formatting, and set the spacing before the paragraph to the equivalent of one line.",
+    "rewrite2": "In the seventh paragraph, please apply the following changes:\n\n- Switch the font to Calibri.\n- Create a negative left indent of 0.5 character.\n- Insert a 10-point space following the paragraph.\n- Italicize the text.\n- Ensure that any bold formatting is removed.\n- Set the space above the paragraph to the equivalent of one line.",
+    "rewrite3": "In the seventh paragraph, switch the font to Calibri. Apply a left indent reduction of 0.5 characters. Ensure there's a 10-point space following the paragraph. Format the text in italics, and remove any bold styling that may be present. Lastly, set the spacing above the paragraph to the equivalent of one line."
+}

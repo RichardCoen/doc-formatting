@@ -1,0 +1,9 @@
+[superscript]: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise.
+```TypeScript
+superscript: boolean;
+```
+Example:
+```javascript
+font.superscript = true;
+```
+----------------

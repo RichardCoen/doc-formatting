@@ -1,0 +1,6 @@
+{
+    "id": "236",
+    "rewrite1": "In the seventh paragraph, implement the following changes: set the outline to Level 1, adjust the left indentation to half a character's width, remove any highlight formatting, and add a 0.5 line space above the paragraph. Also, change the font size to 10.5 points.",
+    "rewrite2": "In the seventh paragraph, please set the formatting to Level 1 Outline. Adjust the left indent so that it's equivalent to half the width of a character. Remove any highlight formatting that might be present. Before the paragraph, add a space of 0.5 lines, and then change the font size to 10.5 points.",
+    "rewrite3": "For the seventh paragraph, implement the following changes: set it to Level 1 Outline, adjust the left indent to half a character width, remove any highlight formatting, add a 0.5 line space before the paragraph, and change the font size to 10.5 points."
+}

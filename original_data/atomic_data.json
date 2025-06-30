@@ -1,0 +1,1376 @@
+{
+    "Dataset": "atomic operation dataset",
+    "Description": "original data for atomic data",
+    "data_list": [
+        {
+            "id": "0",
+            "user_input": "apply Level 1 Outline",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 1;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "outlineLevel",
+            "except_value": "level 1",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "1",
+            "user_input": "change the Outline Level to Level 2",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 2;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "outlineLevel",
+            "except_value": "level 2",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "2",
+            "user_input": "format Outline level to Level 5",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 5;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "outlineLevel",
+            "except_value": "level 5",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "3",
+            "user_input": "apply Outline Level 6",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 6;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "outlineLevel",
+            "except_value": "level 6",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "4",
+            "user_input": "format Outline level to 'Body Text'",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 1;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "outlineLevel",
+            "except_value": "Body Text",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "5",
+            "user_input": "change the Outline Level to 'Body Text'",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 1;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "outlineLevel",
+            "except_value": "Body Text",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "6",
+            "user_input": "modify the First Line to be 12 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 12;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "firstLineIndent",
+            "except_value": "First Line 12 point",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "7",
+            "user_input": "change the First Line to 10 pt",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 10;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "firstLineIndent",
+            "except_value": "First Line 10 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "8",
+            "user_input": "apply 1cm First Line",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 1*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "firstLineIndent",
+            "except_value": "First Line 1 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "9",
+            "user_input": "adjust First Line to 2 centimeter",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 2*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "firstLineIndent",
+            "except_value": "First Line 2 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "10",
+            "user_input": "set First Line to 1 ch",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "firstLineIndent",
+            "except_value": "First Line 1 ch",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "11",
+            "user_input": "adjust First Line to 2 character",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = 2*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 4,
+            "property": "firstLineIndent",
+            "except_value": "First Line 2 character",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "12",
+            "user_input": "modify the Hanging to be 8 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -8;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "firstLineIndent",
+            "except_value": "Hanging 8 point",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "13",
+            "user_input": "change the Hanging to 6 pt",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -6;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "firstLineIndent",
+            "except_value": "Hanging 6 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "14",
+            "user_input": "apply 1cm Hanging",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -1*28.35;\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "firstLineIndent",
+            "except_value": "Hanging 1 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "15",
+            "user_input": "adjust Hanging to 2 centimeter",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -2*28.35;\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "firstLineIndent",
+            "except_value": "Hanging 2 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "16",
+            "user_input": "set Hanging to 1 ch",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = -1*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "firstLineIndent",
+            "except_value": "Hanging 1 ch",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "17",
+            "user_input": "adjust Hanging to 2 character",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = -2*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "firstLineIndent",
+            "except_value": "Hanging 1 character",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "18",
+            "user_input": "adjust the right indent to 12 pt",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 12;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "rightIndent",
+            "except_value": "12 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "19",
+            "user_input": "have a right indent of 16 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 16;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "rightIndent",
+            "except_value": "16 point",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "20",
+            "user_input": "modify the right indentation to 1 cm",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 1*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "rightIndent",
+            "except_value": "1 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "21",
+            "user_input": "set a 2 centimeter right indent",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 2*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "rightIndent",
+            "except_value": "2 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "22",
+            "user_input": "set the right indet to 0.5 ch",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = 0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "rightIndent",
+            "except_value": "0.5 ch",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "23",
+            "user_input": "change the right indent setting to the width of two characters",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = 2*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "rightIndent",
+            "except_value": "2 character",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "24",
+            "user_input": "adjust the right indent to -12 pt",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -12;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "rightIndent",
+            "except_value": "-12 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "25",
+            "user_input": "have a right indent of a negative 16 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -16;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "rightIndent",
+            "except_value": "-16 point",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "26",
+            "user_input": "modify the right indentation to -1cm",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -1*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "rightIndent",
+            "except_value": "-1 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "27",
+            "user_input": "set a negative 2 centimeter right indent",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -2*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "rightIndent",
+            "except_value": "-2 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "28",
+            "user_input": "set the right indet to -0.5 ch",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = -0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "rightIndent",
+            "except_value": "-0.5 ch",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "29",
+            "user_input": "set a negative right indent of 2 characters",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = -2*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "rightIndent",
+            "except_value": "-2 character",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "30",
+            "user_input": "adjust the left indent to 10 pt",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 10;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "leftIndent",
+            "except_value": "10 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "31",
+            "user_input": "have a left indent of 15 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 15;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "leftIndent",
+            "except_value": "15 point",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "32",
+            "user_input": "modify the left indentation to 2 cm",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 2*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "leftIndent",
+            "except_value": "2 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "33",
+            "user_input": "set a 1.5 centimeter left indent",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 1.5*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "leftIndent",
+            "except_value": "1.5 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "34",
+            "user_input": "set the left indet to 1 ch",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "leftIndent",
+            "except_value": "1 ch",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "35",
+            "user_input": "change the left indent setting to the width of half character",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = 0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "leftIndent",
+            "except_value": "0.5 character",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "36",
+            "user_input": "adjust the left indent to -10 pt",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -10;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "leftIndent",
+            "except_value": "-10 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "37",
+            "user_input": "have a left indent of a negative 15 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -15;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "leftIndent",
+            "except_value": "-15 point",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "38",
+            "user_input": "modify the left indentation to -2 cm",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -2*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "leftIndent",
+            "except_value": "-2 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "39",
+            "user_input": "set a negative 1.5 centimeter left indent",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -1.5*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "leftIndent",
+            "except_value": "-1.5 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "40",
+            "user_input": "set the left indet to -1 character",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = -1*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "leftIndent",
+            "except_value": "-1 ch",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "41",
+            "user_input": "set a negative left indent of 0.5 ch",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = -0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "leftIndent",
+            "except_value": "-0.5 character",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "42",
+            "user_input": "Adjust the line spacing to Single line",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "lineSpacing",
+            "except_value": "Single",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "43",
+            "user_input": "modify line spacing at Double lines",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 2*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "lineSpacing",
+            "except_value": "Double",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "44",
+            "user_input": "apply 1.5 lines line spacing",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 1.5*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "lineSpacing",
+            "except_value": "1.5 lines",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "45",
+            "user_input": "set line spacing to Muliple at 3 lines",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 3*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "lineSpacing",
+            "except_value": "3 Multiple",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "46",
+            "user_input": "apply exactly 12 pt Line spacing",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.lineSpacing = 12;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "lineSpacing",
+            "except_value": "Exactly 12pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "47",
+            "user_input": "modify line spacing to 1 cm",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.lineSpacing = 28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "lineSpacing",
+            "except_value": "Exactly 1 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "48",
+            "user_input": "set 0 line space before the paragraph",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "spaceBefore",
+            "except_value": "0 line",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "49",
+            "user_input": "adjust the paragraph spacing before to one line",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceBefore = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "spaceBefore",
+            "except_value": "1 line",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "50",
+            "user_input": "with a 0.5 line space before",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceBefore = 0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "spaceBefore",
+            "except_value": "0.5 line",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "51",
+            "user_input": "add a 6-point space before the paragraph",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 6;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "spaceBefore",
+            "except_value": "6 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "52",
+            "user_input": "modify a 1 cm space before",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "spaceBefore",
+            "except_value": "1 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "53",
+            "user_input": "add a 8 pt space before the paragraph",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 8;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "spaceBefore",
+            "except_value": "8 point",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "54",
+            "user_input": "increase the paragraph spacing before to 0.5 cm",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 28.35*0.5;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "spaceBefore",
+            "except_value": "0.5 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "55",
+            "user_input": "set 0 line space after the paragraph",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 10;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "spaceAfter",
+            "except_value": "0 line",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "56",
+            "user_input": "adjust the paragraph spacing after to 3 lines",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceAfter = 3*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "spaceAfter",
+            "except_value": "3 line",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "57",
+            "user_input": "with a 2.5 line space after",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceAfter = 2.5*fontsize;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 3,
+            "property": "spaceAfter",
+            "except_value": "2.5 line",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "58",
+            "user_input": "add a 8-point space after the paragraph",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 6;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "spaceAfter",
+            "except_value": "8 pt",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "59",
+            "user_input": "modify a 1.5 cm space after",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 1.5*28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "spaceAfter",
+            "except_value": "1.5 cm",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "60",
+            "user_input": "add a 10 pt space after the paragraph",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 10;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "spaceAfter",
+            "except_value": "10 points",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "61",
+            "user_input": "increase the paragraph spacing after to 1 cm",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 28.35;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "spaceAfter",
+            "except_value": "1 centimeter",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "62",
+            "user_input": "set alignment to right-align",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Centered\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "alignment",
+            "except_value": "\"Right\"",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "63",
+            "user_input": "justify the text alignment",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Justified\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "alignment",
+            "except_value": "\"Justified\"",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "64",
+            "user_input": "Left-align the text",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Left\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "alignment",
+            "except_value": "\"Left\"",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "65",
+            "user_input": "apply center alignment",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Centered\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "alignment",
+            "except_value": "\"Centered\"",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "66",
+            "user_input": "bold the text",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "bold",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "67",
+            "user_input": "apply bold formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "bold",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "68",
+            "user_input": "remove any bold formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "bold",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "69",
+            "user_input": "unbold the text",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "bold",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "70",
+            "user_input": "apply double strikethrough",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "doubleStrikeThrough",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "71",
+            "user_input": "add double strikethrough formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "doubleStrikeThrough",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "72",
+            "user_input": "remove the double strikethrough",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "doubleStrikeThrough",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "73",
+            "user_input": "clear the double strikethrough",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "doubleStrikeThrough",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "74",
+            "user_input": "make the text italicized",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "italic",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "75",
+            "user_input": "apply italic formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "italic",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "76",
+            "user_input": "disable italic style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "italic",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "77",
+            "user_input": "remove italic formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "italic",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "78",
+            "user_input": "apply strikethrough formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "strikeThrough",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "79",
+            "user_input": "add a strikethrough effect",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "strikeThrough",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "80",
+            "user_input": "remove the strikethrough",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "strikeThrough",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "81",
+            "user_input": "disable the strikethrough feature",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "strikeThrough",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "82",
+            "user_input": "apply superscript formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "superscript",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "83",
+            "user_input": "convert superscript style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "superscript",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "84",
+            "user_input": "remove superscript formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "superscript",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "85",
+            "user_input": "clear the superscript style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "superscript",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "86",
+            "user_input": "apply subscript formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "subscript",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "87",
+            "user_input": "convert subscript style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "subscript",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "88",
+            "user_input": "remove subscript formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "subscript",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "89",
+            "user_input": "disable the subscript style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "subscript",
+            "except_value": "fasle",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "90",
+            "user_input": "clear the highlight formatting",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = \"yellow\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "highlightColor",
+            "except_value": "none",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "91",
+            "user_input": "remove the highlight color",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = \"yellow\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "highlightColor",
+            "except_value": "none",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "92",
+            "user_input": "apply a yellow highlight",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"yellow\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "highlightColor",
+            "except_value": "yellow",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "93",
+            "user_input": "highlight the text with a lime color",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"lime\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "highlightColor",
+            "except_value": "lime",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "94",
+            "user_input": "change the highlight color to maroon",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"maroon\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "highlightColor",
+            "except_value": "maroon",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "95",
+            "user_input": "highlight the text in hex code #FF00FF",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"#FF00FF\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "highlightColor",
+            "except_value": "#FF00FF",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "96",
+            "user_input": "change the highlight color to hex code #0000FF",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"#0000FF\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "highlightColor",
+            "except_value": "#0000FF",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "97",
+            "user_input": "change the text color to Black",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Purple\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "color",
+            "except_value": "Black",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "98",
+            "user_input": "apply Purple as the font color",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Purple\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "color",
+            "except_value": "Purple",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "99",
+            "user_input": "with Indigo font color",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Indigo\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "color",
+            "except_value": "Indigo",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "100",
+            "user_input": "apply blue color to font",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Blue\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "color",
+            "except_value": "Blue",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "101",
+            "user_input": "change the text color to hexadecimal code #FAFAD2",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"#FAFAD2\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "color",
+            "except_value": "#FAFAD2",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "102",
+            "user_input": "format the font with the hex color #FFFF00",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"#DEB887\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "color",
+            "except_value": "#DEB887",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "103",
+            "user_input": "change the font size to 8 point",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 8;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "size",
+            "except_value": "8",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "104",
+            "user_input": "adjust the font size to 16 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 16;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "size",
+            "except_value": "16",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "105",
+            "user_input": "adjust the text to a 36-point font size",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 36;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "size",
+            "except_value": "36",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "106",
+            "user_input": "increase the font size to 48 points.",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 48;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "size",
+            "except_value": "48",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "107",
+            "user_input": "decrease the font size to 48 points.",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 5.5;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "size",
+            "except_value": "5.5",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "108",
+            "user_input": "set its font size to 10.5 points",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 10.5;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "size",
+            "except_value": "10.5",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "109",
+            "user_input": "select Calibri Light as the font style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Calibri Light\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "Calibri Light",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "110",
+            "user_input": "change the font to Calibri",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Calibri\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "Calibri",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "111",
+            "user_input": "select Malgun Gothic as the font type",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Malgun Gothic\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "Malgun Gothic",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "112",
+            "user_input": "change the font to Microsoft JhengHei",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Microsoft JhengHei\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "Microsoft JhengHei",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "113",
+            "user_input": "switch the font to Times New Roman",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Times New Roman\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "Times New Roman",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "114",
+            "user_input": "apply the Arial font",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Arial\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "Arial",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "115",
+            "user_input": "apply the Microsoft YaHei font",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Microsoft YaHei\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "Microsoft YaHei",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "116",
+            "user_input": "set the font type to SimHei",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"SimHei\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "name",
+            "except_value": "SimHei",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "117",
+            "user_input": "remove any underline",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = \"Single\";\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": NaN,
+            "paragraph_index": "0"
+        },
+        {
+            "id": "118",
+            "user_input": "apply an underline",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Single\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": "Single",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "119",
+            "user_input": "apply 'word underline' style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Word\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": "Word",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "120",
+            "user_input": "Use a Double underline",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Double\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": "Double",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "121",
+            "user_input": "Use a Dotted underline",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Dotted\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": "Dotted",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "122",
+            "user_input": "select a wave underline style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Wave\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": "Wave",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "123",
+            "user_input": "select a heavy wave underline style",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"WaveHeavy\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": "WaveHeavy",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "124",
+            "user_input": "add a Wave Double underline",
+            "test_code": "Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"WaveDouble\";\n\n    await context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "difficulty": 1,
+            "property": "underline",
+            "except_value": "WaveDouble",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "125",
+            "user_input": "Make the font in the first paragraph bold.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[0];\n        var font = paragraph.font;\nfont.bold = true;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[0];\n        var font = paragraph.font;\nfont.bold = false;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "bold",
+            "except_value": "true",
+            "paragraph_index": "0"
+        },
+        {
+            "id": "126",
+            "user_input": "Italicize the second paragraph.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[1];\n        var font = paragraph.font;\nfont.italic = true;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[1];\n        var font = paragraph.font;\nfont.italic = false;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "italic",
+            "except_value": "true",
+            "paragraph_index": "1"
+        },
+        {
+            "id": "127",
+            "user_input": "Set the color of the third paragraph to gray.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[2];\n        var font = paragraph.font;\nfont.color = \"gray\";\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[2];\n        var font = paragraph.font;\nfont.color = \"black\";\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "color",
+            "except_value": "gray",
+            "paragraph_index": "2"
+        },
+        {
+            "id": "128",
+            "user_input": "Adjust the font size of the fourth paragraph to 20 points.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[3];\n        var font = paragraph.font;\nfont.size = 20;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[3];\n        var font = paragraph.font;\nfont.size = 10;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "size",
+            "except_value": "20 points",
+            "paragraph_index": "3"
+        },
+        {
+            "id": "129",
+            "user_input": "Modify the font of the fifth paragraph to Arial.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[4];\n        var font = paragraph.font;\nfont.name = \"Arial\";\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[4];\n        var font = paragraph.font;\nfont.name = \"Calibri\";\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "name",
+            "except_value": "Arial",
+            "paragraph_index": "4"
+        },
+        {
+            "id": "130",
+            "user_input": "Make the font in the sixth paragraph unbold.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[5];\n        var font = paragraph.font;\nfont.bold = false;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[5];\n        var font = paragraph.font;\nfont.bold = true;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "bold",
+            "except_value": "false",
+            "paragraph_index": "5"
+        },
+        {
+            "id": "131",
+            "user_input": "Remove italic formatting for the seventh paragraph.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[6];\n        var font = paragraph.font;\nfont.italic = false;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[6];\n        var font = paragraph.font;\nfont.italic = true;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "italic",
+            "except_value":"false",
+            "paragraph_index": "6"
+        },
+        {
+            "id": "132",
+            "user_input": "Set the color of the eighth paragraph to red.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[7];\n        var font = paragraph.font;\nfont.color = \"red\";\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[7];\n        var font = paragraph.font;\nfont.color = \"black\";\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "color",
+            "except_value": "red",
+            "paragraph_index": "7"
+        },
+        {
+            "id": "133",
+            "user_input": "Increase the font size of the ninth paragraph to 32 points.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[8];\n        var font = paragraph.font;\nfont.size = 32;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[8];\n        var font = paragraph.font;\nfont.size = 10;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "size",
+            "except_value": "32 points",
+            "paragraph_index": "8"
+        },
+        {
+            "id": "134",
+            "user_input": "Modify the font of the tenth paragraph to SimHei.",
+            "test_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[9];\n        var font = paragraph.font;\nfont.name = \"SimHei\";\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[9];\n        var font = paragraph.font;\nfont.name = \"Calibri\";\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "name",
+            "except_value": "SimHei",
+            "paragraph_index": "9"
+        },
+        {
+            "id": "135",
+            "user_input": "Set the selected part as a superscript.",
+            "test_code": "Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.superscript = true;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.superscript = false;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "superscript",
+            "except_value": "true",
+            "paragraph_index": "selected"
+        },
+        {
+            "id": "136",
+            "user_input": "Make the chosen text as the subscript.",
+            "test_code": "Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.subscript = true;\nawait context.sync();\n});\n",
+            "init_code": "Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.subscript = false;\nawait context.sync();\n});\n",
+            "difficulty": 2,
+            "property": "subscript",
+            "except_value": "true",
+            "paragraph_index": "selected"
+        }
+    ]
+}

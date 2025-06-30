@@ -1,0 +1,692 @@
+{
+    "Description": "original data for atomic data example code",
+    "code_type": "example",
+    "task_name": "atomic_example",
+    "list": [
+        {
+            "id": "0",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 1;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "1",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 2;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "2",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 5;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "3",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 6;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "4",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 1;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "5",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.outlineLevel = 10;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.outlineLevel = 1;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "6",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 12;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "7",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 10;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "8",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 1*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "9",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = 2*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "10",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "11",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = 2*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "12",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -8;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "13",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -6;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "14",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -1*28.35;\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "15",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.firstLineIndent = -2*28.35;\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "16",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = -1*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "17",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.firstLineIndent = -2*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.firstLineIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "18",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 12;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "19",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 16;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "20",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 1*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "21",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = 2*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "22",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = 0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "23",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = 2*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "24",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -12;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "25",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -16;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "26",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -1*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "27",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.rightIndent = -2*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "28",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = -0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "29",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.rightIndent = -2*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.rightIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "30",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 10;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "31",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 15;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "32",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 2*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "33",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = 1.5*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "34",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "35",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = 0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "36",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -10;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "37",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -15;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "38",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -2*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "39",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.leftIndent = -1.5*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "40",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = -1*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "41",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.leftIndent = -0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.leftIndent = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "42",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "43",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 2*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "44",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 1.5*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "45",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.lineSpacing = 3*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "46",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.lineSpacing = 12;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "47",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.lineSpacing = 28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.lineSpacing = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "48",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "49",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceBefore = 1*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "50",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceBefore = 0.5*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "51",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 6;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "52",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "53",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 8;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "54",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceBefore = 28.35*0.5;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceBefore = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "55",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 10;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "56",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceAfter = 3*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "57",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.load(\"size\");\n                            await context.sync();\n                var fontsize =font.size;\n                console.log(\"font size : \"+fontsize);\n                paragraph.spaceAfter = 2.5*fontsize;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "58",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 6;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "59",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 1.5*28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "60",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 10;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "61",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.spaceAfter = 28.35;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.spaceAfter = 0;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "62",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Centered\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "63",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Justified\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "64",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Left\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "65",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    paragraph.alignment = \"Centered\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    paragraph.alignment = \"Right\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "66",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "67",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "68",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "69",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.bold = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.bold = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "70",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "71",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "72",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "73",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.doubleStrikeThrough = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.doubleStrikeThrough = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "74",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "75",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "76",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "77",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.italic = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.italic = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "78",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "79",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "80",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "81",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.strikeThrough = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.strikeThrough = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "82",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "83",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "84",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "85",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.superscript = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.superscript = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "86",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "87",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "88",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "89",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.subscript = false;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.subscript = true;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "90",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = \"yellow\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "91",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = \"yellow\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "92",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"yellow\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "93",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"lime\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "94",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"maroon\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "95",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"#FF00FF\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "96",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.highlightColor = \"#0000FF\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.highlightColor = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "97",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Purple\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "98",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Purple\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "99",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Indigo\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "100",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"Blue\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "101",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"#FAFAD2\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "102",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.color = \"#DEB887\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.color = \"Black\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "103",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 8;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "104",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 16;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "105",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 36;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "106",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 48;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "107",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 5.5;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "108",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.size = 10.5;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.size = 20;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "109",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Calibri Light\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "110",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Calibri\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "111",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Malgun Gothic\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "112",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Microsoft JhengHei\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "113",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Times New Roman\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "114",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Arial\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "115",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"Microsoft YaHei\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "116",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.name = \"SimHei\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.name = \"Gothic\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "117",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = \"Single\";\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "118",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Single\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "119",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Word\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "120",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Double\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "121",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Dotted\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "122",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"Wave\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "123",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"WaveHeavy\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "124",
+            "code": "await await Word.run(async function (context) {\nvar paragraph = context.document.body.paragraphs.getFirst();\nvar font = paragraph.font;\n    font.underline = \"WaveDouble\";\n\n    await context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n    var paragraph = context.document.body.paragraphs.getFirst();\n    var font = paragraph.font;\n    font.underline = null;\n\n    await context.sync();\n});\n"
+        },
+        {
+            "id": "125",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[0];\n        var font = paragraph.font;\nfont.bold = true;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[0];\n        var font = paragraph.font;\nfont.bold = false;\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "126",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[1];\n        var font = paragraph.font;\nfont.italic = true;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[1];\n        var font = paragraph.font;\nfont.italic = false;\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "127",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[2];\n        var font = paragraph.font;\nfont.color = \"gray\";\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[2];\n        var font = paragraph.font;\nfont.color = \"black\";\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "128",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[3];\n        var font = paragraph.font;\nfont.size = 20;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[3];\n        var font = paragraph.font;\nfont.size = 10;\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "129",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[4];\n        var font = paragraph.font;\nfont.name = \"Arial\";\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[4];\n        var font = paragraph.font;\nfont.name = \"Calibri\";\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "130",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[5];\n        var font = paragraph.font;\nfont.bold = false;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[5];\n        var font = paragraph.font;\nfont.bold = true;\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "131",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[6];\n        var font = paragraph.font;\nfont.italic = false;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[6];\n        var font = paragraph.font;\nfont.italic = true;\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "132",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[7];\n        var font = paragraph.font;\nfont.color = \"red\";\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[7];\n        var font = paragraph.font;\nfont.color = \"black\";\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "133",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[8];\n        var font = paragraph.font;\nfont.size = 32;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[8];\n        var font = paragraph.font;\nfont.size = 10;\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "134",
+            "code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[9];\n        var font = paragraph.font;\nfont.name = \"SimHei\";\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n const paragraphs = context.document.body.paragraphs;\n        paragraphs.load(\"$none\");\n        await context.sync();\n        const paragraph = paragraphs.items[9];\n        var font = paragraph.font;\nfont.name = \"Calibri\";\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "135",
+            "code": "await await Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.superscript = true;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.superscript = false;\nawait context.sync();\n});\n"
+        },
+        {
+            "id": "136",
+            "code": "await await Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.subscript = true;\nawait context.sync();\n});\n",
+            "initialized_code": "await await Word.run(async function (context) {\n        var paragraph = context.document.getSelection().paragraphs.getFirst();\n        var font =context.document.getSelection().font;\n        font.subscript = false;\nawait context.sync();\n});\n"
+        }
+    ]
+}

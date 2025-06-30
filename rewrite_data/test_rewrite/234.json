@@ -1,0 +1,6 @@
+{
+    "id": "234",
+    "rewrite1": "Begin the first paragraph with a left indent set back by 15 points. Adjust the space preceding it to 1 centimeter, and apply a right indent of 16 points.",
+    "rewrite2": "Begin the first paragraph with a left indent set to minus 15 points. Adjust it to include a 1 cm space above it, and set the right indent to 16 points.",
+    "rewrite3": "Set the first paragraph with a left indent of -15 points, add a space of 1 cm before the text, and adjust the right indent to 16 points."
+}

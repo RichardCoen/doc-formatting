@@ -1,0 +1,9 @@
+[lineSpacing]: Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.
+```TypeScript
+lineSpacing: number;
+```
+Example:
+```javascript
+paragraph.lineSpacing = 10;
+```
+----------------

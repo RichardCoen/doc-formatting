@@ -1,0 +1,9 @@
+[size]: Specifies a value that represents the font size in points.
+```TypeScript
+size: number;
+```
+Example:
+```javascript
+font.size = 15;
+```
+----------------

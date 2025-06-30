@@ -1,0 +1,6 @@
+{
+    "id": "1207",
+    "rewrite1": "Begin with the second paragraph by aligning the text to the right and changing the font to Malgun Gothic.\n\nMove to the first paragraph and indent the first line by two characters, followed by setting the spacing after the paragraph to zero.\n\nFinally, for the third paragraph, set the outline level to 'Body Text', introduce a space of 1 cm before the text starts, align the text to the left, and apply a hanging indent of 1 cm.",
+    "rewrite2": "Revised instructions:\n\n- Begin by aligning the text in the second paragraph to the right and change its font to Malgun Gothic.\n- Move on to the first paragraph, indent the first line by two characters, and ensure there is no additional spacing following the paragraph.\n- For the third paragraph, set the Outline level to 'Body Text'. Add a 1 cm space before the text starts, align it to the left, and apply a 1 cm hanging indent.",
+    "rewrite3": "Let's begin with the second paragraph: align the text to the right and choose 'Malgun Gothic' for the font style.\n\nMoving to the first paragraph: set the first line indentation to two characters and ensure there's no space following the paragraph.\n\nLastly, for the third paragraph: classify the outline level as 'Body Text', introduce a 1 cm space at the start, align the text to the left, and implement a 1 cm hanging indent."
+}

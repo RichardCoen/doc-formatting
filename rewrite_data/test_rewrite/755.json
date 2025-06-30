@@ -1,0 +1,6 @@
+{
+    "id": "755",
+    "rewrite1": "For the sixth paragraph, please update the formatting as follows: change the font color to #FFFF00, ensure there is no spacing following the paragraph, adjust the outline level to Level 5, set a first-line indent of 1 cm, switch the font to Microsoft JhengHei, and alter the right indentation to -1 cm.",
+    "rewrite2": "For the sixth paragraph, please apply the following changes to the formatting:\n\n- Change the font color to the hexadecimal code #FFFF00.\n- Adjust the spacing to have 0 line space following the paragraph.\n- Set the Outline level to Level 5.\n- Implement a 1cm indent for the first line.\n- Switch the font to Microsoft JhengHei.\n- Alter the right indentation to be -1cm.",
+    "rewrite3": "In the sixth paragraph, please update the font color to the hex code #FFFF00. Eliminate any spacing that follows the paragraph, ensuring there's 0 line space after. Adjust the outline level to Level 5 for organizational hierarchy. Set a first-line indentation of 1 cm to structure the paragraph neatly. Change the font to Microsoft JhengHei for stylistic consistency. Lastly, alter the right indentation to a negative 1 cm to suit the document's layout requirements."
+}

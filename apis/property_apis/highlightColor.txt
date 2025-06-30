@@ -1,0 +1,9 @@
+[highlightColor]: Specify the highlight color. To set it, use a value of the format "#RRGGBB" or a color name. To remove the highlight color, set it to null.
+```TypeScript
+highlightColor: string;
+```
+Example:
+```javascript
+font.highlightColor = 'red';
+```
+----------------

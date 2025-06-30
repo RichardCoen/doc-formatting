@@ -1,0 +1,6 @@
+{
+    "id": "531",
+    "rewrite1": "For the second paragraph, please apply the following changes: add a dotted underline beneath the text, remove any italic formatting, adjust the left indent to negative one character, set the right indent to negative half a character, and ensure that the paragraph is formatted with the 'Body Text' outline level.",
+    "rewrite2": "For the second paragraph, apply the following formatting changes: add a dotted underline, remove any italic formatting, adjust the left indent to negative one character, set the right indent to negative half a character, and ensure the outline level is set to 'Body Text.'",
+    "rewrite3": "For the second paragraph, apply the following changes: Add a dotted underline and remove any italic formatting. Adjust the left indent by reducing it by 1 character, and set the right indent to be half a character less (-0.5 ch). Finally, ensure the paragraph's outline level is set to 'Body Text.'"
+}

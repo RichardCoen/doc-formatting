@@ -1,0 +1,6 @@
+{
+    "id": "1001",
+    "rewrite1": "Please make the following changes to the selected text: increase the font size to 16 points, set the first line indent to 12 points, underline the text, highlight it in yellow, remove any italic formatting, switch the font to Arial, and set the right indent to -1 cm.",
+    "rewrite2": "Please apply the following formatting changes to the selected text: Set the overall font size to 16 points, and adjust the First Line indentation to 12 points. Add an underline for emphasis and highlight the text with a yellow color. Ensure the italic formatting is removed for a standard look. Switch the text font to Arial, and set the right indentation to -1cm for alignment.",
+    "rewrite3": "Please begin by selecting the text you wish to format. Once selected, change the font size to 16 points. Adjust the indentation of the first line to 12 points. Proceed to underline the chosen text and add a yellow highlight for emphasis. Ensure that the italic style is turned off. Switch the text font to Arial. Lastly, set the right indentation to -1cm to complete the formatting."
+}

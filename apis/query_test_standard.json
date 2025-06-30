@@ -1,0 +1,964 @@
+{
+    "accuracy": 0.8321167883211679,
+    "data_list": [
+        {
+            "id": "0",
+            "query": "apply Level 1 Outline",
+            "apis_need": "\nApi documentation apis you may need:\noutlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "apis_recall": "outlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "if_right": true
+        },
+        {
+            "id": "1",
+            "query": "change the Outline Level to Level 2",
+            "apis_need": "\nApi documentation apis you may need:\noutlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "apis_recall": "outlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "if_right": true
+        },
+        {
+            "id": "2",
+            "query": "format Outline level to Level 5",
+            "apis_need": "\nApi documentation apis you may need:\noutlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "apis_recall": "outlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "if_right": true
+        },
+        {
+            "id": "3",
+            "query": "apply Outline Level 6",
+            "apis_need": "\nApi documentation apis you may need:\noutlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "apis_recall": "outlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "if_right": true
+        },
+        {
+            "id": "4",
+            "query": "format Outline level to 'Body Text'",
+            "apis_need": "\nApi documentation apis you may need:\noutlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "apis_recall": "outlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "if_right": true
+        },
+        {
+            "id": "5",
+            "query": "change the Outline Level to 'Body Text'",
+            "apis_need": "\nApi documentation apis you may need:\noutlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "apis_recall": "outlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "if_right": true
+        },
+        {
+            "id": "6",
+            "query": "modify the First Line to be 12 points",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "7",
+            "query": "change the First Line to 10 pt",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "8",
+            "query": "apply 1cm First Line",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "9",
+            "query": "adjust First Line to 2 centimeter",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "10",
+            "query": "set First Line to 1 ch",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "11",
+            "query": "adjust First Line to 2 character",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "12",
+            "query": "modify the Hanging to be 8 points",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "13",
+            "query": "change the Hanging to 6 pt",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "14",
+            "query": "apply 1cm Hanging",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "15",
+            "query": "adjust Hanging to 2 centimeter",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "16",
+            "query": "set Hanging to 1 ch",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "17",
+            "query": "adjust Hanging to 2 character",
+            "apis_need": "\nApi documentation apis you may need:\nfirstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "18",
+            "query": "adjust the right indent to 12 pt",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "19",
+            "query": "have a right indent of 16 points",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "20",
+            "query": "modify the right indentation to 1 cm",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "21",
+            "query": "set a 2 centimeter right indent",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "22",
+            "query": "set the right indet to 0.5 ch",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "23",
+            "query": "change the right indent setting to the width of two characters",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "24",
+            "query": "adjust the right indent to -12 pt",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "25",
+            "query": "have a right indent of a negative 16 points",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "26",
+            "query": "modify the right indentation to -1cm",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "27",
+            "query": "set a negative 2 centimeter right indent",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "28",
+            "query": "set the right indet to -0.5 ch",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "29",
+            "query": "set a negative right indent of 2 characters",
+            "apis_need": "\nApi documentation apis you may need:\nrightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "apis_recall": "rightIndent: number;Specifies the right indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.rightIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "30",
+            "query": "adjust the left indent to 10 pt",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "31",
+            "query": "have a left indent of 15 points",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "32",
+            "query": "modify the left indentation to 2 cm",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "33",
+            "query": "set a 1.5 centimeter left indent",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "34",
+            "query": "set the left indet to 1 ch",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "35",
+            "query": "change the left indent setting to the width of half character",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "36",
+            "query": "adjust the left indent to -10 pt",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "37",
+            "query": "have a left indent of a negative 15 points",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "38",
+            "query": "modify the left indentation to -2 cm",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "39",
+            "query": "set a negative 1.5 centimeter left indent",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "40",
+            "query": "set the left indet to -1 character",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "41",
+            "query": "set a negative left indent of 0.5 ch",
+            "apis_need": "\nApi documentation apis you may need:\nleftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "apis_recall": "leftIndent: number;Specifies the left indent value of the paragraph in points.1cm = 28.35 points\nexample:paragraph.leftIndent = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "42",
+            "query": "Adjust the line spacing to Single line",
+            "apis_need": "\nApi documentation apis you may need:\nlineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "43",
+            "query": "modify line spacing at Double lines",
+            "apis_need": "\nApi documentation apis you may need:\nlineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "44",
+            "query": "apply 1.5 lines line spacing",
+            "apis_need": "\nApi documentation apis you may need:\nlineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "45",
+            "query": "set line spacing to Muliple at 3 lines",
+            "apis_need": "\nApi documentation apis you may need:\nlineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "46",
+            "query": "apply exactly 12 pt Line spacing",
+            "apis_need": "\nApi documentation apis you may need:\nlineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "47",
+            "query": "modify line spacing to 1 cm",
+            "apis_need": "\nApi documentation apis you may need:\nlineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "48",
+            "query": "set 0 line space before the paragraph",
+            "apis_need": "\nApi documentation apis you may need:\nspaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "apis_recall": "spaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "49",
+            "query": "adjust the paragraph spacing before to one line",
+            "apis_need": "\nApi documentation apis you may need:\nspaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "50",
+            "query": "with a 0.5 line space before",
+            "apis_need": "\nApi documentation apis you may need:\nspaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "apis_recall": "spaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "51",
+            "query": "add a 6-point space before the paragraph",
+            "apis_need": "\nApi documentation apis you may need:\nspaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "apis_recall": "spaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "52",
+            "query": "modify a 1 cm space before",
+            "apis_need": "\nApi documentation apis you may need:\nspaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "apis_recall": "spaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "53",
+            "query": "add a 8 pt space before the paragraph",
+            "apis_need": "\nApi documentation apis you may need:\nspaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "apis_recall": "spaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "54",
+            "query": "increase the paragraph spacing before to 0.5 cm",
+            "apis_need": "\nApi documentation apis you may need:\nspaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "apis_recall": "spaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "55",
+            "query": "set 0 line space after the paragraph",
+            "apis_need": "\nApi documentation apis you may need:\nspaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "apis_recall": "firstLineIndent: number;Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.1cm = 28.35 points\nexample:paragraph.firstLineIndent = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "56",
+            "query": "adjust the paragraph spacing after to 3 lines",
+            "apis_need": "\nApi documentation apis you may need:\nspaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "57",
+            "query": "with a 2.5 line space after",
+            "apis_need": "\nApi documentation apis you may need:\nspaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "58",
+            "query": "add a 8-point space after the paragraph",
+            "apis_need": "\nApi documentation apis you may need:\nspaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "apis_recall": "spaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "59",
+            "query": "modify a 1.5 cm space after",
+            "apis_need": "\nApi documentation apis you may need:\nspaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "apis_recall": "spaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "60",
+            "query": "add a 10 pt space after the paragraph",
+            "apis_need": "\nApi documentation apis you may need:\nspaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "apis_recall": "spaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "if_right": true
+        },
+        {
+            "id": "61",
+            "query": "increase the paragraph spacing after to 1 cm",
+            "apis_need": "\nApi documentation apis you may need:\nspaceAfter: number;Specifies the spacing after a paragraph in points.1cm = 28.35 points\nexample:paragraph.spaceAfter = 10;\n",
+            "apis_recall": "spaceBefore: number;Specifies the spacing before paragraphs in points.1cm = 28.35 points\nexample:paragraph.spaceBefore = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "62",
+            "query": "set alignment to right-align",
+            "apis_need": "\nApi documentation apis you may need:\nalignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.aligment = \"Centered\";\n",
+            "apis_recall": "alignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.outlineLevel = 1;\n",
+            "if_right": false
+        },
+        {
+            "id": "63",
+            "query": "justify the text alignment",
+            "apis_need": "\nApi documentation apis you may need:\nalignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.aligment = \"Centered\";\n",
+            "apis_recall": "alignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.outlineLevel = 1;\n",
+            "if_right": false
+        },
+        {
+            "id": "64",
+            "query": "Left-align the text",
+            "apis_need": "\nApi documentation apis you may need:\nalignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.aligment = \"Centered\";\n",
+            "apis_recall": "alignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.outlineLevel = 1;\n",
+            "if_right": false
+        },
+        {
+            "id": "65",
+            "query": "apply center alignment",
+            "apis_need": "\nApi documentation apis you may need:\nalignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.aligment = \"Centered\";\n",
+            "apis_recall": "alignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.outlineLevel = 1;\n",
+            "if_right": false
+        },
+        {
+            "id": "66",
+            "query": "bold the text",
+            "apis_need": "\nApi documentation apis you may need:\nbold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "apis_recall": "bold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "67",
+            "query": "apply bold formatting",
+            "apis_need": "\nApi documentation apis you may need:\nbold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "apis_recall": "bold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "68",
+            "query": "remove any bold formatting",
+            "apis_need": "\nApi documentation apis you may need:\nbold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "apis_recall": "bold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "69",
+            "query": "unbold the text",
+            "apis_need": "\nApi documentation apis you may need:\nbold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "apis_recall": "bold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "70",
+            "query": "apply double strikethrough",
+            "apis_need": "\nApi documentation apis you may need:\ndoubleStrikeThrough: boolean;Specifies a value that indicates whether the font has double strikethrough. True if the font format is set to double strikethrough text, false otherwise.nan\nexample:font.doubleStrikeThrough=true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": false
+        },
+        {
+            "id": "71",
+            "query": "add double strikethrough formatting",
+            "apis_need": "\nApi documentation apis you may need:\ndoubleStrikeThrough: boolean;Specifies a value that indicates whether the font has double strikethrough. True if the font format is set to double strikethrough text, false otherwise.nan\nexample:font.doubleStrikeThrough=true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": false
+        },
+        {
+            "id": "72",
+            "query": "remove the double strikethrough",
+            "apis_need": "\nApi documentation apis you may need:\ndoubleStrikeThrough: boolean;Specifies a value that indicates whether the font has double strikethrough. True if the font format is set to double strikethrough text, false otherwise.nan\nexample:font.doubleStrikeThrough=true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": false
+        },
+        {
+            "id": "73",
+            "query": "clear the double strikethrough",
+            "apis_need": "\nApi documentation apis you may need:\ndoubleStrikeThrough: boolean;Specifies a value that indicates whether the font has double strikethrough. True if the font format is set to double strikethrough text, false otherwise.nan\nexample:font.doubleStrikeThrough=true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": false
+        },
+        {
+            "id": "74",
+            "query": "make the text italicized",
+            "apis_need": "\nApi documentation apis you may need:\nitalic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "apis_recall": "italic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "75",
+            "query": "apply italic formatting",
+            "apis_need": "\nApi documentation apis you may need:\nitalic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "apis_recall": "italic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "76",
+            "query": "disable italic style",
+            "apis_need": "\nApi documentation apis you may need:\nitalic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "apis_recall": "italic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "77",
+            "query": "remove italic formatting",
+            "apis_need": "\nApi documentation apis you may need:\nitalic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "apis_recall": "italic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "78",
+            "query": "apply strikethrough formatting",
+            "apis_need": "\nApi documentation apis you may need:\nstrikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "79",
+            "query": "add a strikethrough effect",
+            "apis_need": "\nApi documentation apis you may need:\nstrikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "80",
+            "query": "remove the strikethrough",
+            "apis_need": "\nApi documentation apis you may need:\nstrikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "81",
+            "query": "disable the strikethrough feature",
+            "apis_need": "\nApi documentation apis you may need:\nstrikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "apis_recall": "strikeThrough: boolean;Specifies a value that indicates whether the font has strikethrough. True if the font is formatted as strikethrough text, false otherwise. \nexample:font.strikeThrough = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "82",
+            "query": "apply superscript formatting",
+            "apis_need": "\nApi documentation apis you may need:\nsuperscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "apis_recall": "superscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "83",
+            "query": "convert superscript style",
+            "apis_need": "\nApi documentation apis you may need:\nsuperscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "apis_recall": "superscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "84",
+            "query": "remove superscript formatting",
+            "apis_need": "\nApi documentation apis you may need:\nsuperscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "apis_recall": "superscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "85",
+            "query": "clear the superscript style",
+            "apis_need": "\nApi documentation apis you may need:\nsuperscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "apis_recall": "superscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "86",
+            "query": "apply subscript formatting",
+            "apis_need": "\nApi documentation apis you may need:\nsubscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "apis_recall": "subscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "87",
+            "query": "convert subscript style",
+            "apis_need": "\nApi documentation apis you may need:\nsubscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "apis_recall": "subscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "88",
+            "query": "remove subscript formatting",
+            "apis_need": "\nApi documentation apis you may need:\nsubscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "apis_recall": "subscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "89",
+            "query": "disable the subscript style",
+            "apis_need": "\nApi documentation apis you may need:\nsubscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "apis_recall": "subscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "90",
+            "query": "clear the highlight formatting",
+            "apis_need": "\nApi documentation apis you may need:\nhighlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "91",
+            "query": "remove the highlight color",
+            "apis_need": "\nApi documentation apis you may need:\nhighlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "92",
+            "query": "apply a yellow highlight",
+            "apis_need": "\nApi documentation apis you may need:\nhighlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "93",
+            "query": "highlight the text with a lime color",
+            "apis_need": "\nApi documentation apis you may need:\nhighlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "94",
+            "query": "change the highlight color to maroon",
+            "apis_need": "\nApi documentation apis you may need:\nhighlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "95",
+            "query": "highlight the text in hex code #FF00FF",
+            "apis_need": "\nApi documentation apis you may need:\nhighlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "96",
+            "query": "change the highlight color to hex code #0000FF",
+            "apis_need": "\nApi documentation apis you may need:\nhighlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "97",
+            "query": "change the text color to Black",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": false
+        },
+        {
+            "id": "98",
+            "query": "apply Purple as the font color",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "color: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "99",
+            "query": "with Indigo font color",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "color: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "100",
+            "query": "apply blue color to font",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "color: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "101",
+            "query": "change the text color to hexadecimal code #FAFAD2",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": false
+        },
+        {
+            "id": "102",
+            "query": "format the font with the hex color #FFFF00",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "color: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "if_right": true
+        },
+        {
+            "id": "103",
+            "query": "change the font size to 8 point",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "size: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "if_right": true
+        },
+        {
+            "id": "104",
+            "query": "adjust the font size to 16 points",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "size: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "if_right": true
+        },
+        {
+            "id": "105",
+            "query": "adjust the text to a 36-point font size",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "size: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "if_right": true
+        },
+        {
+            "id": "106",
+            "query": "increase the font size to 48 points.",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "size: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "if_right": true
+        },
+        {
+            "id": "107",
+            "query": "decrease the font size to 48 points.",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "size: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "if_right": true
+        },
+        {
+            "id": "108",
+            "query": "set its font size to 10.5 points",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "size: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "if_right": true
+        },
+        {
+            "id": "109",
+            "query": "select Calibri Light as the font style",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "110",
+            "query": "change the font to Calibri",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "111",
+            "query": "select Malgun Gothic as the font type",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "112",
+            "query": "change the font to Microsoft JhengHei",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "113",
+            "query": "switch the font to Times New Roman",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "114",
+            "query": "apply the Arial font",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "115",
+            "query": "apply the Microsoft YaHei font",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "116",
+            "query": "set the font type to SimHei",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "117",
+            "query": "remove any underline",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "118",
+            "query": "apply an underline",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "119",
+            "query": "apply 'word underline' style",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "120",
+            "query": "Use a Double underline",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "121",
+            "query": "Use a Dotted underline",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "122",
+            "query": "select a wave underline style",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "123",
+            "query": "select a heavy wave underline style",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "124",
+            "query": "add a Wave Double underline",
+            "apis_need": "\nApi documentation apis you may need:\nunderline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "apis_recall": "underline: Word.UnderlineType | \"Mixed\" | \"None\" | \"Hidden\" | \"DotLine\" | \"Single\" | \"Word\" | \"Double\" | \"Thick\" | \"Dotted\" | \"DottedHeavy\" | \"DashLine\" | \"DashLineHeavy\" | \"DashLineLong\" | \"DashLineLongHeavy\" | \"DotDashLine\" | \"DotDashLineHeavy\" | \"TwoDotDashLine\" | \"TwoDotDashLineHeavy\" | \"Wave\" | \"WaveHeavy\" | \"WaveDouble\";Specifies a value that indicates the underline type of the font. \"None\" if the font has no underlines. \nexample:font.underline = 'Single';\n",
+            "if_right": true
+        },
+        {
+            "id": "125",
+            "query": "Make the font in the first paragraph bold.",
+            "apis_need": "\nApi documentation apis you may need:\nbold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "apis_recall": "bold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "126",
+            "query": "Italicize the second paragraph.",
+            "apis_need": "\nApi documentation apis you may need:\nitalic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "apis_recall": "italic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "127",
+            "query": "Set the color of the third paragraph to gray.",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "alignment: Specify the paragraph alignment. Possible values are \"left\", \"centered\", \"right\", or \"justified\". \nexample:paragraph.outlineLevel = 1;\n",
+            "if_right": false
+        },
+        {
+            "id": "128",
+            "query": "Adjust the font size of the fourth paragraph to 20 points.",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "129",
+            "query": "Modify the font of the fifth paragraph to Arial.",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "name: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "if_right": true
+        },
+        {
+            "id": "130",
+            "query": "Make the font in the sixth paragraph unbold.",
+            "apis_need": "\nApi documentation apis you may need:\nbold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "apis_recall": "bold: boolean;Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise. \nexample:font.bold = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "131",
+            "query": "Remove italic formatting for the seventh paragraph.",
+            "apis_need": "\nApi documentation apis you may need:\nitalic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "apis_recall": "italic: boolean;Specifies a value that indicates whether the font is italic. true if the font is italic, false otherwise. \nexample:font.italic = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "132",
+            "query": "Set the color of the eighth paragraph to red.",
+            "apis_need": "\nApi documentation apis you may need:\ncolor: string;Specifies the color of the specified font. Values can be provided in the format \"#RRGGBB\" or as color names. \nexample:font.color = 'red';\n",
+            "apis_recall": "highlightColor: string;Specify the highlight color. To set it, use a value of the format \"#RRGGBB\" or a color name. To remove the highlight color, set it to null.nan\nexample:font.highlightColor = 'red';\n",
+            "if_right": false
+        },
+        {
+            "id": "133",
+            "query": "Increase the font size of the ninth paragraph to 32 points.",
+            "apis_need": "\nApi documentation apis you may need:\nsize: number;Specifies a value that represents the font size in points. \nexample:font.size = 15;\n",
+            "apis_recall": "lineSpacing: number;Specifies the line spacing (in points) for the specified paragraph. In the Word UI, this value should be divided by 12 per time.1cm = 28.35 points\nexample:paragraph.lineSpacing = 10;\n",
+            "if_right": false
+        },
+        {
+            "id": "134",
+            "query": "Modify the font of the tenth paragraph to SimHei.",
+            "apis_need": "\nApi documentation apis you may need:\nname: string;Specifies a value representing the font name. \nexample:font.name = 'Arial';\n",
+            "apis_recall": "outlineLevel: number;Specifies the paragraph's outline level,1-10,10 is body text. \nexample:paragraph.outlineLevel = 6\n",
+            "if_right": false
+        },
+        {
+            "id": "135",
+            "query": "Set the selected part as a superscript.",
+            "apis_need": "\nApi documentation apis you may need:\nsuperscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "apis_recall": "superscript: boolean;Specifies a value indicating whether the font is superscript. true if the font format is superscript, false otherwise. \nexample:font.superscript = true;\n",
+            "if_right": true
+        },
+        {
+            "id": "136",
+            "query": "Make the chosen text as the subscript.",
+            "apis_need": "\nApi documentation apis you may need:\nsubscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "apis_recall": "subscript: boolean;Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise. \nexample:font.subscript = true;\n",
+            "if_right": true
+        }
+    ]
+}

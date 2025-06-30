@@ -1,0 +1,9 @@
+[name]: Specifies a value representing the font name.
+```TypeScript
+name: string;
+```
+Example:
+```javascript
+font.name = 'Arial';
+```
+----------------

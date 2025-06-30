@@ -1,0 +1,10 @@
+[character]: 1 character width is one font size in points. Read the size of the character as the default unit
+Example:
+```javascript
+// make spaceAfter as 1 character
+font.load(\"size\");
+await context.sync();
+var fontsize =font.size;
+paragraph.spaceAfter = fontsize;
+```
+----------------

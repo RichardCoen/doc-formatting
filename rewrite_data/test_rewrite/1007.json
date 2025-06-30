@@ -1,0 +1,6 @@
+{
+    "id": "1007",
+    "rewrite1": "In the sixth paragraph, please implement the following formatting changes:\n\n- Align the text to the right of the page.\n- Indent the first line on the left by one character.\n- Change the font to Calibri Light.\n- Increase the font size to 36 points.\n- Set a right indent of 16 points.\n- Add a 1-centimeter space above the paragraph.\n- Designate the paragraph's outline level as 'Body Text'.\n- Set the line spacing to a single line.",
+    "rewrite2": "In the sixth paragraph, please make the following changes to its formatting:\n\n1. Align the text to the right.\n2. Apply a left indent of 1 character.\n3. Choose 'Calibri Light' for the font style.\n4. Increase the font size to 36 points.\n5. Set a right indent of 16 points.\n6. Insert a space of 1 cm before the paragraph.\n7. Set the Outline level to 'Body Text'.\n8. Adjust the line spacing to a single line.",
+    "rewrite3": "Please adjust the formatting of the sixth paragraph as follows: align the text to the right, indent the left side by 1 character, and choose Calibri Light for the font style. The font size should be increased to 36 points, with a right indent set at 16 points. Add a 1 cm space preceding the paragraph and set the Outline level to 'Body Text'. Lastly, change the line spacing to single."
+}

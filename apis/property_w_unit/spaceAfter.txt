@@ -1,0 +1,9 @@
+[spaceAfter]: Specifies the spacing after a paragraph in points.
+```TypeScript
+spaceAfter: number;
+```
+Example:
+```javascript
+paragraph.spaceAfter = 10;
+```
+----------------

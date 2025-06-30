@@ -1,0 +1,6 @@
+{
+    "id": "185",
+    "rewrite1": "Please align the selected text to the center, remove any highlight formatting, and adjust the spacing to include a 1 cm gap before the text begins.",
+    "rewrite2": "Please take the selected text and align it to the center. Then remove any existing highlight formatting from it. Finally, adjust the spacing to include a 1 cm gap before the text starts.",
+    "rewrite3": "For the selected text, please center it, remove any highlighting, and add a 1 cm space before it begins."
+}

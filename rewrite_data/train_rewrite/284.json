@@ -1,0 +1,6 @@
+{
+    "id": "284",
+    "rewrite1": "Please make the following changes to the third paragraph: Set the line spacing to Single. Ensure that all text is in a standard weight by eliminating any bold styling. Change the left indentation to negative 2 centimeters. Apply a highlight to the text with the color corresponding to hex code #FF00FF. Finally, adjust the font size to 10.5 points.",
+    "rewrite2": "Please make the following changes to the third paragraph of the document: Set the line spacing to \"Single.\" Ensure that all bold styling is removed. Adjust the left indent, bringing it back by 2 centimeters. Apply a text highlight using the color with hex code #FF00FF. Lastly, change the font size to 10.5 points.",
+    "rewrite3": "In the third paragraph, please change the line spacing to a single line. Ensure that any text formatted in bold is reverted to the standard weight. Adjust the left margin so that it is indented by negative 2 centimeters. Apply the color with hex code #FF00FF as the highlight for the entire paragraph text. Lastly, set the font size to 10.5 points."
+}

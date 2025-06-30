@@ -1,0 +1,6 @@
+{
+    "id": "13",
+    "rewrite1": "For the third paragraph, please strip away all bold styling, set the Outline level to 'Body Text', and introduce a 6-point space preceding the paragraph.",
+    "rewrite2": "In the third paragraph, please strip away all bold styling, set the Outline level to 'Body Text', and insert a space of 6 points above the paragraph.",
+    "rewrite3": "In the third paragraph, please strip away all bold styling. Then, change the Outline level setting to 'Body Text' and insert a space of 6 points above the paragraph."
+}

@@ -1,0 +1,6 @@
+{
+    "id": "404",
+    "rewrite1": "For the fifth paragraph, please change the font color to Purple and adjust the left indent to a negative 1 character. Ensure the text is bolded, while also turning off any italic formatting. Set the line spacing to 1.5 lines and add a space of 1.5 cm after the paragraph. Highlight the text using the hex code #FF00FF, and switch the font to Times New Roman.",
+    "rewrite2": "In the fifth paragraph, change the font color to Purple and adjust the left indent to -1 character. Ensure the text is bolded while turning off any italic formatting. Set the line spacing to 1.5 lines and add a 1.5 cm space following the paragraph. Highlight the text with the color corresponding to hex code #FF00FF, and switch the font to Times New Roman.",
+    "rewrite3": "In the fifth paragraph, please change the font color to Purple and adjust the left indent by reducing it by one character. Ensure the text is in bold and turn off any italic styling. Set the line spacing to 1.5 lines and add a space of 1.5 cm after the paragraph. Highlight the text using the hex code #FF00FF. Lastly, switch the font to Times New Roman."
+}

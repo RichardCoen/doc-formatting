@@ -1,0 +1,6 @@
+{
+    "id": "40",
+    "rewrite1": "Adjust the left indent to a negative value, specifically by reducing it by one character.",
+    "rewrite2": "Adjust the left indent to a negative value, precisely at minus one character.",
+    "rewrite3": "Adjust the left indent so that it is reduced by one character."
+}

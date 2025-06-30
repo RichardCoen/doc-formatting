@@ -1,0 +1,827 @@
+{
+    "description": "3 rewrite results for atomic operation.",
+    "data_list": [
+        {
+            "id": "0",
+            "rewrite1": "Please use the \"Level 1 Outline\" style in the formatting.",
+            "rewrite2": "Set the text to 'Level 1 Outline' formatting.",
+            "rewrite3": "Implement the \"Level 1 Outline\" formatting."
+        },
+        {
+            "id": "1",
+            "rewrite1": "Adjust the outline level so that it is set to Level 2.",
+            "rewrite2": "Adjust the Outline Level to be set at Level 2.",
+            "rewrite3": "Adjust the outline level to Level 2."
+        },
+        {
+            "id": "10",
+            "rewrite1": "Adjust the first line indentation to 1 character space.",
+            "rewrite2": "Adjust the first line indent to 1 character.",
+            "rewrite3": "Adjust the first line indent to 1 character."
+        },
+        {
+            "id": "100",
+            "rewrite1": "Change the font color to blue.",
+            "rewrite2": "Change the font color to blue.",
+            "rewrite3": "Change the font color to blue."
+        },
+        {
+            "id": "101",
+            "rewrite1": "\"Please update the text color to the hex code #FAFAD2.\"",
+            "rewrite2": "Alter the font color to the hex value #FAFAD2.",
+            "rewrite3": "Alter the color of the text to the hexadecimal value #FAFAD2."
+        },
+        {
+            "id": "102",
+            "rewrite1": "Apply the font color using the hexadecimal code #FFFF00 to the text.",
+            "rewrite2": "Set the font color to the hexadecimal code #FFFF00.",
+            "rewrite3": "Change the font color to the hexadecimal code #FFFF00."
+        },
+        {
+            "id": "103",
+            "rewrite1": "Adjust the font size to 8 point.",
+            "rewrite2": "Please adjust the font size to 8 point.",
+            "rewrite3": "Adjust the font size to 8 point."
+        },
+        {
+            "id": "104",
+            "rewrite1": "Change the font size to 16 points.",
+            "rewrite2": "Please increase the font size to 16 points.",
+            "rewrite3": "Set the font size to 16 points."
+        },
+        {
+            "id": "105",
+            "rewrite1": "Set the font size of the text to 36 points.",
+            "rewrite2": "Please modify the font size of the text to 36 points.",
+            "rewrite3": "Change the font size of the text to 36 points."
+        },
+        {
+            "id": "106",
+            "rewrite1": "Adjust the font size to 48 points.",
+            "rewrite2": "Please adjust the font size to 48 points.",
+            "rewrite3": "Adjust the font size to 48 points."
+        },
+        {
+            "id": "107",
+            "rewrite1": "Reduce the text size to 48 points.",
+            "rewrite2": "Reduce the size of the text to 48 points.",
+            "rewrite3": "Reduce the size of the text to 48 points."
+        },
+        {
+            "id": "108",
+            "rewrite1": "Adjust the font size to 10.5 points.",
+            "rewrite2": "Adjust the font size to 10.5 points.",
+            "rewrite3": "Adjust the font size to 10.5 points."
+        },
+        {
+            "id": "109",
+            "rewrite1": "Choose 'Calibri Light' for your font style.",
+            "rewrite2": "Choose \"Calibri Light\" for the font style.",
+            "rewrite3": "Choose 'Calibri Light' for the font style."
+        },
+        {
+            "id": "11",
+            "rewrite1": "Set the first-line indent to the space equivalent of two characters.",
+            "rewrite2": "Set the first line indentation to the equivalent of two characters.",
+            "rewrite3": "Please set the first line indent to the equivalent of two characters."
+        },
+        {
+            "id": "110",
+            "rewrite1": "Please update the document's typeface to Calibri.",
+            "rewrite2": "Please switch the document's font to Calibri.",
+            "rewrite3": "Please switch the document's font to Calibri."
+        },
+        {
+            "id": "111",
+            "rewrite1": "Choose \"Malgun Gothic\" from the font options.",
+            "rewrite2": "Please choose \"Malgun Gothic\" as your font selection.",
+            "rewrite3": "Choose 'Malgun Gothic' for the font style."
+        },
+        {
+            "id": "112",
+            "rewrite1": "Set the font style to Microsoft JhengHei.",
+            "rewrite2": "Alter the text style to Microsoft JhengHei.",
+            "rewrite3": "\"Set the font style to Microsoft JhengHei.\""
+        },
+        {
+            "id": "113",
+            "rewrite1": "Change the document's font to Times New Roman.",
+            "rewrite2": "Change the font style to Times New Roman.",
+            "rewrite3": "Change the font style to Times New Roman."
+        },
+        {
+            "id": "114",
+            "rewrite1": "Switch to the Arial typeface.",
+            "rewrite2": "Change the typeface to Arial.",
+            "rewrite3": "Switch to the Arial typeface."
+        },
+        {
+            "id": "115",
+            "rewrite1": "Set the font to Microsoft YaHei.",
+            "rewrite2": "Switch the font to Microsoft YaHei.",
+            "rewrite3": "Set the font to Microsoft YaHei."
+        },
+        {
+            "id": "116",
+            "rewrite1": "Change the font style to SimHei.",
+            "rewrite2": "Change the font style to SimHei.",
+            "rewrite3": "Change the font style to SimHei."
+        },
+        {
+            "id": "117",
+            "rewrite1": "Eliminate all instances of underlined text.",
+            "rewrite2": "Eliminate all underlining from the text.",
+            "rewrite3": "Eliminate all instances of underlined text."
+        },
+        {
+            "id": "118",
+            "rewrite1": "Enable underlining for the selected text.",
+            "rewrite2": "Please add an underline to the specified text.",
+            "rewrite3": "Please add an underline to the specified text."
+        },
+        {
+            "id": "119",
+            "rewrite1": "Please format the text using the \"underline\" feature in Word.",
+            "rewrite2": "Implement the 'underline' formatting style to the text.",
+            "rewrite3": "Please format the text using the 'underline' feature in Word."
+        },
+        {
+            "id": "12",
+            "rewrite1": "Adjust the hanging indent so that it is set to 8 points.",
+            "rewrite2": "Adjust the hanging indent so that it is set to 8 points.",
+            "rewrite3": "Adjust the hanging indent so that it is set to 8 points."
+        },
+        {
+            "id": "120",
+            "rewrite1": "Apply a double underline to the text.",
+            "rewrite2": "Apply a double underline to the text.",
+            "rewrite3": "Apply a double underline to the text."
+        },
+        {
+            "id": "121",
+            "rewrite1": "Apply a dotted underline to the text.",
+            "rewrite2": "Apply a dotted underline to the text.",
+            "rewrite3": "Apply a dotted underline for emphasis."
+        },
+        {
+            "id": "122",
+            "rewrite1": "Choose a wavy underline style.",
+            "rewrite2": "Choose a wavy underline style.",
+            "rewrite3": "Choose a wavy underline style."
+        },
+        {
+            "id": "123",
+            "rewrite1": "Choose a bold wavy underline format.",
+            "rewrite2": "Choose a bold wavy underline style.",
+            "rewrite3": "Choose a bold, wavy underline format."
+        },
+        {
+            "id": "124",
+            "rewrite1": "Please apply a double wave underline to the text.",
+            "rewrite2": "Please apply a double wave underline.",
+            "rewrite3": "Apply a double wave underline to the text."
+        },
+        {
+            "id": "125",
+            "rewrite1": "Set the text in the opening paragraph to a bold typeface.",
+            "rewrite2": "Set the text in the opening paragraph to bold typeface.",
+            "rewrite3": "\"Set the text in the initial paragraph to boldface.\""
+        },
+        {
+            "id": "126",
+            "rewrite1": "Please apply italics to the second paragraph.",
+            "rewrite2": "Please apply italic formatting to the second paragraph in the document.",
+            "rewrite3": "Set the second paragraph in italics."
+        },
+        {
+            "id": "127",
+            "rewrite1": "Change the color of the third paragraph to gray.",
+            "rewrite2": "Change the color of the third paragraph to a gray shade.",
+            "rewrite3": "Change the color of the third paragraph to gray."
+        },
+        {
+            "id": "128",
+            "rewrite1": "Change the font size in the fourth paragraph to 20 points.",
+            "rewrite2": "Change the font size for the fourth paragraph to 20 points.",
+            "rewrite3": "Change the font size of the fourth paragraph to 20 points."
+        },
+        {
+            "id": "129",
+            "rewrite1": "Change the font style of the fifth paragraph to Arial.",
+            "rewrite2": "Change the font style of the fifth paragraph to Arial.",
+            "rewrite3": "Change the typeface of the fifth paragraph to Arial."
+        },
+        {
+            "id": "13",
+            "rewrite1": "\"Adjust the hanging indent to a 6-point measurement.\"",
+            "rewrite2": "Please adjust the hanging indent to 6 points.",
+            "rewrite3": "Adjust the hanging indent to 6 points."
+        },
+        {
+            "id": "130",
+            "rewrite1": "Please remove the bold formatting from the text in the sixth paragraph.",
+            "rewrite2": "Change the font style in the sixth paragraph to remove the bold formatting.",
+            "rewrite3": "Please change the font of the sixth paragraph to a regular weight, removing the bold formatting."
+        },
+        {
+            "id": "131",
+            "rewrite1": "Switch the seventh paragraph back to a regular font style, eliminating any italicization.",
+            "rewrite2": "Change the text in the seventh paragraph to a regular font style, removing any italicization.",
+            "rewrite3": "Change the seventh paragraph to a normal font style by eliminating the italics."
+        },
+        {
+            "id": "132",
+            "rewrite1": "Change the text color of the eighth paragraph to red.",
+            "rewrite2": "Change the text color of the eighth paragraph to red.",
+            "rewrite3": "Change the text color of the eighth paragraph to red."
+        },
+        {
+            "id": "133",
+            "rewrite1": "\"Please adjust the font size of the ninth paragraph to 32 points.\"",
+            "rewrite2": "\"Adjust the font size for the ninth paragraph, making it larger at 32 points.\"",
+            "rewrite3": "Adjust the font size of the ninth paragraph to 32 points."
+        },
+        {
+            "id": "134",
+            "rewrite1": "Change the font style of the tenth paragraph to SimHei.",
+            "rewrite2": "Change the font style of the tenth paragraph to SimHei.",
+            "rewrite3": "Change the typeface of the tenth paragraph to SimHei."
+        },
+        {
+            "id": "135",
+            "rewrite1": "Change the formatting of the highlighted text to superscript.",
+            "rewrite2": "Change the formatting of the highlighted text to superscript.",
+            "rewrite3": "\"Format the highlighted section to appear as a superscript.\""
+        },
+        {
+            "id": "136",
+            "rewrite1": "Please format the selected text to appear as a subscript.",
+            "rewrite2": "Set the selected text to subscript format.",
+            "rewrite3": "Format the selected text to appear as a subscript."
+        },
+        {
+            "id": "14",
+            "rewrite1": "Set a hanging indent of 1 cm.",
+            "rewrite2": "Set a 1-centimeter hanging indent.",
+            "rewrite3": "Set a hanging indent of 1 centimeter."
+        },
+        {
+            "id": "15",
+            "rewrite1": "\"Set the hanging indent to 2 centimeters.\"",
+            "rewrite2": "Set the hanging indent to 2 centimeters.",
+            "rewrite3": "Set the hanging indent to 2 centimeters."
+        },
+        {
+            "id": "16",
+            "rewrite1": "Adjust the paragraph formatting to include a hanging indent of one character space.",
+            "rewrite2": "Adjust the paragraph format to a hanging indent of one character.",
+            "rewrite3": "Adjust the paragraph formatting so that the first line has a hanging indent of one character space."
+        },
+        {
+            "id": "17",
+            "rewrite1": "Set the hanging indent to the width of two characters.",
+            "rewrite2": "Please set the hanging indent to the width of two characters.",
+            "rewrite3": "\"Set the hanging indent to the width of two characters.\""
+        },
+        {
+            "id": "18",
+            "rewrite1": "Set the right indent to 12 points.",
+            "rewrite2": "Set the right indent to 12 points.",
+            "rewrite3": "Set the right indent to 12 points."
+        },
+        {
+            "id": "19",
+            "rewrite1": "Please set the right indent to 16 points.",
+            "rewrite2": "Set the right indent to 16 points.",
+            "rewrite3": "Set the right indent to 16 points."
+        },
+        {
+            "id": "2",
+            "rewrite1": "Adjust the outline formatting to reflect Level 5 hierarchy.",
+            "rewrite2": "Set the outline level to Level 5 in the formatting options.",
+            "rewrite3": "Set the outline level formatting to Level 5."
+        },
+        {
+            "id": "20",
+            "rewrite1": "Adjust the right margin indentation to a width of 1 centimeter.",
+            "rewrite2": "Adjust the indentation on the right side to a 1 cm setting.",
+            "rewrite3": "Adjust the right margin indentation to a width of 1 centimeter."
+        },
+        {
+            "id": "21",
+            "rewrite1": "Apply a right indent of 2 centimeters to the text.",
+            "rewrite2": "Please adjust the right indent to 2 centimeters.",
+            "rewrite3": "Adjust the right indent to 2 centimeters."
+        },
+        {
+            "id": "22",
+            "rewrite1": "Adjust the right indent to half a character space, 0.5 ch.",
+            "rewrite2": "Adjust the right indent to half a character width, or 0.5 ch.",
+            "rewrite3": "Adjust the right indent to half a character width (0.5 ch)."
+        },
+        {
+            "id": "23",
+            "rewrite1": "Please adjust the right indentation to equal the width of two characters.",
+            "rewrite2": "Adjust the right indent setting to be equivalent to the width of two characters.",
+            "rewrite3": "Adjust the indentation on the right side to be equivalent to the width of two characters."
+        },
+        {
+            "id": "24",
+            "rewrite1": "Set the right indent to a negative 12-point value.",
+            "rewrite2": "Set the right indent to a negative 12-point value.",
+            "rewrite3": "Set the right indent to negative twelve points."
+        },
+        {
+            "id": "25",
+            "rewrite1": "Set the right indent to negative 16 points.",
+            "rewrite2": "Set the right indent to -16 points.",
+            "rewrite3": "Set the right indent to -16 points."
+        },
+        {
+            "id": "26",
+            "rewrite1": "Adjust the indentation on the right side to -1 cm.",
+            "rewrite2": "Adjust the right indent setting to negative one centimeter.",
+            "rewrite3": "Adjust the right indent setting to negative one centimeter (-1cm)."
+        },
+        {
+            "id": "27",
+            "rewrite1": "Apply a right indent of negative 2 centimeters.",
+            "rewrite2": "Apply a right indent of negative 2 centimeters.",
+            "rewrite3": "Apply a right indent of negative 2 centimeters."
+        },
+        {
+            "id": "28",
+            "rewrite1": "Please adjust the right indent to negative 0.5 characters.",
+            "rewrite2": "Please adjust the right indent to negative 0.5 character spaces.",
+            "rewrite3": "Adjust the right indent to negative 0.5 character spacing."
+        },
+        {
+            "id": "29",
+            "rewrite1": "Adjust the right indent so that it extends 2 characters into the margin, effectively creating a negative indent on the right side.",
+            "rewrite2": "Adjust the right indent of the document so that it extends 2 characters beyond the standard margin, creating a negative indent on the right side.",
+            "rewrite3": "Adjust the right indent of the document so that it is reduced by two characters."
+        },
+        {
+            "id": "3",
+            "rewrite1": "Set the text to Outline Level 6 format.",
+            "rewrite2": "Set the document's formatting to Outline Level 6.",
+            "rewrite3": "Set the formatting to Outline Level 6."
+        },
+        {
+            "id": "30",
+            "rewrite1": "Set the left indent to 10 points.",
+            "rewrite2": "Set the left indentation to 10 points.",
+            "rewrite3": "Set the left indent to 10 points."
+        },
+        {
+            "id": "31",
+            "rewrite1": "Set the left indent to 15 points.",
+            "rewrite2": "Set the left indent to 15 points.",
+            "rewrite3": "Set the left indent to 15 points."
+        },
+        {
+            "id": "32",
+            "rewrite1": "Adjust the left indent to a width of 2 centimeters.",
+            "rewrite2": "Adjust the indentation on the left side to be exactly 2 centimeters.",
+            "rewrite3": "Adjust the left margin to a 2 cm indentation."
+        },
+        {
+            "id": "33",
+            "rewrite1": "Apply a left indent of 1.5 centimeters.",
+            "rewrite2": "Adjust the left indent to 1.5 centimeters.",
+            "rewrite3": "Adjust the left indent to a width of 1.5 centimeters."
+        },
+        {
+            "id": "34",
+            "rewrite1": "Adjust the left indent to one character.",
+            "rewrite2": "Adjust the left indent to one character width.",
+            "rewrite3": "Adjust the left indent to one character."
+        },
+        {
+            "id": "35",
+            "rewrite1": "Adjust the left indent to the equivalent width of half a character.",
+            "rewrite2": "Adjust the left indent to be equivalent to the width of half a character.",
+            "rewrite3": "Adjust the left indent so that it's set to a width equal to half the width of a character."
+        },
+        {
+            "id": "36",
+            "rewrite1": "Set the left indent to a negative 10-point offset.",
+            "rewrite2": "Set the left indent to negative 10 points.",
+            "rewrite3": "Set the left indent to a negative 10 points."
+        },
+        {
+            "id": "37",
+            "rewrite1": "Set the left indent to -15 points.",
+            "rewrite2": "Set the left indent to -15 points.",
+            "rewrite3": "Set the left indent to -15 points."
+        },
+        {
+            "id": "38",
+            "rewrite1": "Adjust the left margin so that it is set to a negative indentation of 2 centimeters.",
+            "rewrite2": "Adjust the left margin so that it is set to a negative 2 centimeter indentation.",
+            "rewrite3": "Adjust the left margin so that it is set at a negative 2 centimeter indentation."
+        },
+        {
+            "id": "39",
+            "rewrite1": "Adjust the left indent to -1.5 centimeters.",
+            "rewrite2": "Adjust the left indent to -1.5 centimeters.",
+            "rewrite3": "Apply a left indent of negative 1.5 centimeters."
+        },
+        {
+            "id": "4",
+            "rewrite1": "Please change the formatting of the Outline level to 'Body Text'.",
+            "rewrite2": "Set the formatting of the Outline level to \"Body Text.\"",
+            "rewrite3": "Set the formatting of the Outline level to 'Body Text.'"
+        },
+        {
+            "id": "40",
+            "rewrite1": "Adjust the left indent to a negative value, specifically by reducing it by one character.",
+            "rewrite2": "Adjust the left indent to a negative value, precisely at minus one character.",
+            "rewrite3": "Adjust the left indent so that it is reduced by one character."
+        },
+        {
+            "id": "41",
+            "rewrite1": "Apply a left indent of negative 0.5 character spaces.",
+            "rewrite2": "Adjust the left indent to a negative 0.5 character space.",
+            "rewrite3": "Apply a left indent of negative 0.5 characters to the text."
+        },
+        {
+            "id": "42",
+            "rewrite1": "Set the line spacing to a single line format.",
+            "rewrite2": "Set the line spacing to Single.",
+            "rewrite3": "Set the line spacing to 'Single.'"
+        },
+        {
+            "id": "43",
+            "rewrite1": "Adjust the line spacing to double.",
+            "rewrite2": "Adjust the line spacing to double-spacing.",
+            "rewrite3": "Adjust the line spacing to double."
+        },
+        {
+            "id": "44",
+            "rewrite1": "Set the line spacing to 1.5 lines.",
+            "rewrite2": "Set the line spacing to 1.5 lines.",
+            "rewrite3": "Set the line spacing to 1.5 lines."
+        },
+        {
+            "id": "45",
+            "rewrite1": "Adjust the line spacing to 'Multiple' with a setting of 3 lines.",
+            "rewrite2": "Adjust the line spacing to a Multiple setting with a value of 3 lines.",
+            "rewrite3": "Adjust the line spacing in the document to 'Multiple' and set it to a factor of 3 lines."
+        },
+        {
+            "id": "46",
+            "rewrite1": "Set the line spacing to precisely 12 points.",
+            "rewrite2": "Set the line spacing precisely to 12 pt.",
+            "rewrite3": "Set the line spacing to precisely 12 points."
+        },
+        {
+            "id": "47",
+            "rewrite1": "Adjust the line spacing to be exactly 1 centimeter.",
+            "rewrite2": "Adjust the line spacing to a 1 cm interval.",
+            "rewrite3": "Adjust the line spacing to a distance of 1 centimeter."
+        },
+        {
+            "id": "48",
+            "rewrite1": "Adjust the paragraph settings to have zero spacing before it begins.",
+            "rewrite2": "Adjust the paragraph to have zero line spacing before it.",
+            "rewrite3": "Adjust the paragraph to have zero spacing before it begins."
+        },
+        {
+            "id": "49",
+            "rewrite1": "Set the spacing before paragraphs to one line.",
+            "rewrite2": "Set the spacing before each paragraph to one line.",
+            "rewrite3": "Change the spacing above the paragraph to one line."
+        },
+        {
+            "id": "5",
+            "rewrite1": "Please adjust the Outline Level to 'Body Text'.",
+            "rewrite2": "Set the Outline Level to 'Body Text'.",
+            "rewrite3": "Please adjust the Outline Level to 'Body Text'."
+        },
+        {
+            "id": "50",
+            "rewrite1": "Insert a half-line space before the text.",
+            "rewrite2": "\"Set the line spacing to have a 0.5 space before each new line.\"",
+            "rewrite3": "Incorporate a half-line space before the text begins."
+        },
+        {
+            "id": "51",
+            "rewrite1": "Insert a 6-point spacing above the paragraph.",
+            "rewrite2": "Insert a space of six points above the paragraph.",
+            "rewrite3": "Please insert a space of 6 points above the paragraph."
+        },
+        {
+            "id": "52",
+            "rewrite1": "Adjust the document to include a 1 cm indent before the paragraph.",
+            "rewrite2": "Adjust the document to include a 1-centimeter space before the designated section.",
+            "rewrite3": "Please adjust the document to include a 1-centimeter space at the beginning."
+        },
+        {
+            "id": "53",
+            "rewrite1": "Insert an 8-point space above the paragraph.",
+            "rewrite2": "Insert an 8-point space preceding the paragraph.",
+            "rewrite3": "Insert an 8-point space before the paragraph."
+        },
+        {
+            "id": "54",
+            "rewrite1": "Adjust the spacing before each paragraph to 0.5 centimeters.",
+            "rewrite2": "Adjust the spacing before each paragraph to 0.5 centimeters.",
+            "rewrite3": "Adjust the spacing before paragraphs to 0.5 cm."
+        },
+        {
+            "id": "55",
+            "rewrite1": "Adjust the paragraph formatting to have zero spacing after the line.",
+            "rewrite2": "Adjust the paragraph formatting to have zero spacing after each paragraph.",
+            "rewrite3": "Adjust the paragraph formatting to eliminate the space following each paragraph."
+        },
+        {
+            "id": "56",
+            "rewrite1": "Please set the spacing following each paragraph to be equivalent to the height of three lines.",
+            "rewrite2": "Set the space following each paragraph to be equivalent to the height of three lines.",
+            "rewrite3": "Set the space following each paragraph to the equivalent of three lines."
+        },
+        {
+            "id": "57",
+            "rewrite1": "Please apply a line spacing of 2.5 after each sentence.",
+            "rewrite2": "Please adjust the document to include a line spacing of 2.5 after each paragraph.",
+            "rewrite3": "Please set the document with a line spacing of 2.5."
+        },
+        {
+            "id": "58",
+            "rewrite1": "Insert an 8-point space following each paragraph.",
+            "rewrite2": "Insert an 8-point spacing following each paragraph.",
+            "rewrite3": "\"Insert an 8-point spacing following each paragraph.\""
+        },
+        {
+            "id": "59",
+            "rewrite1": "Adjust the document to include a 1.5-centimeter spacing afterwards.",
+            "rewrite2": "Adjust the document to include a 1.5 centimeter spacing after paragraphs.",
+            "rewrite3": "Please adjust the document to include a space of 1.5 centimeters following the specified element."
+        },
+        {
+            "id": "6",
+            "rewrite1": "Adjust the first line's font size to 12 points.",
+            "rewrite2": "Adjust the first line's font size to 12 points.",
+            "rewrite3": "Adjust the first line so that it has a font size of 12 points."
+        },
+        {
+            "id": "60",
+            "rewrite1": "Insert a 10-point space following the paragraph.",
+            "rewrite2": "Insert a 10-point gap following each paragraph.",
+            "rewrite3": "Please insert a space of 10 points following the paragraph."
+        },
+        {
+            "id": "61",
+            "rewrite1": "Adjust the spacing following each paragraph to a length of 1 centimeter.",
+            "rewrite2": "Adjust the spacing following each paragraph to a length of 1 centimeter.",
+            "rewrite3": "Adjust the spacing after each paragraph to 1 centimeter."
+        },
+        {
+            "id": "62",
+            "rewrite1": "Adjust the text alignment to align with the right-hand margin.",
+            "rewrite2": "Adjust the text so that it is aligned to the right side of the page.",
+            "rewrite3": "Adjust the text so that it is aligned to the right side of the page."
+        },
+        {
+            "id": "63",
+            "rewrite1": "Set the text alignment to justified.",
+            "rewrite2": "\"Align the text so that it is justified.\"",
+            "rewrite3": "Adjust the text so that it is aligned evenly along both the left and right margins."
+        },
+        {
+            "id": "64",
+            "rewrite1": "Align the text to the left.",
+            "rewrite2": "Align the text to the left.",
+            "rewrite3": "Align the text to the left."
+        },
+        {
+            "id": "65",
+            "rewrite1": "\"Set the text to be aligned in the center.\"",
+            "rewrite2": "Adjust the text so that it is centered on the page.",
+            "rewrite3": "Set the text to be centered on the page."
+        },
+        {
+            "id": "66",
+            "rewrite1": "Make the text bold.",
+            "rewrite2": "Please apply bold formatting to the text.",
+            "rewrite3": "Make the text bold."
+        },
+        {
+            "id": "67",
+            "rewrite1": "\"Set the text to boldface.\"",
+            "rewrite2": "Set the text to bold.",
+            "rewrite3": "Set the text to bold."
+        },
+        {
+            "id": "68",
+            "rewrite1": "Eliminate all instances of bold text formatting.",
+            "rewrite2": "Take out all instances of bold text formatting.",
+            "rewrite3": "Please clear all text of any bold styling."
+        },
+        {
+            "id": "69",
+            "rewrite1": "Please remove the bold formatting from the text.",
+            "rewrite2": "\"Please remove the bold formatting from the text.\"",
+            "rewrite3": "Please remove the bold formatting from the text."
+        },
+        {
+            "id": "7",
+            "rewrite1": "Adjust the first line indentation to 10 points.",
+            "rewrite2": "Adjust the first line indentation to a 10-point setting.",
+            "rewrite3": "Adjust the first line indentation to 10 points."
+        },
+        {
+            "id": "70",
+            "rewrite1": "Please implement a double strikethrough on the text.",
+            "rewrite2": "Please enable the double strikethrough feature on the text.",
+            "rewrite3": "Implement a double strikethrough effect on the text."
+        },
+        {
+            "id": "71",
+            "rewrite1": "Apply double strikethrough to the text.",
+            "rewrite2": "Apply a double strikethrough to the text.",
+            "rewrite3": "Apply double strikethrough to the text."
+        },
+        {
+            "id": "72",
+            "rewrite1": "Eliminate the double strikethrough formatting from the text.",
+            "rewrite2": "Eliminate the instances of double strikethrough from the document.",
+            "rewrite3": "Eliminate the double strikethrough from the text."
+        },
+        {
+            "id": "73",
+            "rewrite1": "Remove the double strikethrough formatting.",
+            "rewrite2": "Remove the double strikethrough formatting.",
+            "rewrite3": "Remove the double strikethrough formatting."
+        },
+        {
+            "id": "74",
+            "rewrite1": "Set the text to an italic style.",
+            "rewrite2": "Set the text to an italic style.",
+            "rewrite3": "Set the text to an italic style."
+        },
+        {
+            "id": "75",
+            "rewrite1": "\"Set the text to italics.\"",
+            "rewrite2": "Switch the text to an italicized style.",
+            "rewrite3": "\"Set the text to italics.\""
+        },
+        {
+            "id": "76",
+            "rewrite1": "Turn off the italic formatting in the text.",
+            "rewrite2": "Turn off the italic formatting.",
+            "rewrite3": "Turn off the italic formatting."
+        },
+        {
+            "id": "77",
+            "rewrite1": "Please strip away the italicized styling from the text.",
+            "rewrite2": "Eliminate the use of italics in the document's formatting.",
+            "rewrite3": "\"Eliminate the use of italics in the document formatting.\""
+        },
+        {
+            "id": "78",
+            "rewrite1": "Implement the strikethrough style to the text.",
+            "rewrite2": "Add strikethrough to the text.",
+            "rewrite3": "Implement strikethrough styling to the text."
+        },
+        {
+            "id": "79",
+            "rewrite1": "Apply a strikethrough to the text.",
+            "rewrite2": "Apply a strikethrough to the text.",
+            "rewrite3": "Apply a strikethrough to the text."
+        },
+        {
+            "id": "8",
+            "rewrite1": "Set the first line indent to 1 centimeter.",
+            "rewrite2": "Set the first line indentation to 1 cm.",
+            "rewrite3": "Set the first line indent to 1 cm."
+        },
+        {
+            "id": "80",
+            "rewrite1": "Please eliminate any text that has been struck through.",
+            "rewrite2": "Eliminate the strikethrough formatting from the text.",
+            "rewrite3": "Please take out the strikethrough formatting from the text."
+        },
+        {
+            "id": "81",
+            "rewrite1": "Turn off the strikethrough option.",
+            "rewrite2": "Please turn off the strikethrough option in the document settings.",
+            "rewrite3": "Turn off the strikethrough option."
+        },
+        {
+            "id": "82",
+            "rewrite1": "Set the selected text to superscript style.",
+            "rewrite2": "Please format the text using superscript.",
+            "rewrite3": "Activate the superscript feature for the text formatting."
+        },
+        {
+            "id": "83",
+            "rewrite1": "Change the text to superscript format.",
+            "rewrite2": "Change the text to superscript format.",
+            "rewrite3": "Change the text to superscript format."
+        },
+        {
+            "id": "84",
+            "rewrite1": "Please eliminate the use of superscript in the document's formatting.",
+            "rewrite2": "Eliminate the use of superscript in the document's formatting.",
+            "rewrite3": "Please clear any text that is currently formatted in superscript."
+        },
+        {
+            "id": "85",
+            "rewrite1": "Remove the superscript formatting.",
+            "rewrite2": "Remove the superscript formatting.",
+            "rewrite3": "Remove the superscript formatting."
+        },
+        {
+            "id": "86",
+            "rewrite1": "Please format the text to include subscript.",
+            "rewrite2": "Please format the text with subscript styling.",
+            "rewrite3": "Please format the text to use subscript styling."
+        },
+        {
+            "id": "87",
+            "rewrite1": "Change the text formatting to use subscript.",
+            "rewrite2": "Change the text to subscript format.",
+            "rewrite3": "Change the text to subscript format."
+        },
+        {
+            "id": "88",
+            "rewrite1": "Eliminate the use of subscript in the document's formatting.",
+            "rewrite2": "Eliminate the use of subscript in the formatting.",
+            "rewrite3": "Please clear any subscript formatting present in the document."
+        },
+        {
+            "id": "89",
+            "rewrite1": "Turn off the subscript formatting option.",
+            "rewrite2": "Turn off the subscript formatting option.",
+            "rewrite3": "Turn off the subscript formatting option."
+        },
+        {
+            "id": "9",
+            "rewrite1": "Set the first line indent to 2 centimeters.",
+            "rewrite2": "Set the first line indent to 2 centimeters.",
+            "rewrite3": "Set the first line indent to 2 centimeters."
+        },
+        {
+            "id": "90",
+            "rewrite1": "Remove any highlighted formatting from the text.",
+            "rewrite2": "Remove any highlighting from the text in the document.",
+            "rewrite3": "Remove any highlighting from the text formatting."
+        },
+        {
+            "id": "91",
+            "rewrite1": "Clear the highlighted text formatting.",
+            "rewrite2": "Eliminate the highlighting from the text.",
+            "rewrite3": "Take out the background color from the text."
+        },
+        {
+            "id": "92",
+            "rewrite1": "Please add a yellow highlight to the text.",
+            "rewrite2": "Add a yellow highlight to the text.",
+            "rewrite3": "Please use a yellow highlighter feature on the text."
+        },
+        {
+            "id": "93",
+            "rewrite1": "Apply a lime-colored highlight to the text.",
+            "rewrite2": "Apply a lime-colored highlight to the text.",
+            "rewrite3": "Apply a lime-colored highlight to the text."
+        },
+        {
+            "id": "94",
+            "rewrite1": "Please update the highlighting by applying a maroon shade.",
+            "rewrite2": "Adjust the text highlighting to a maroon shade.",
+            "rewrite3": "Please update the highlight color to a maroon shade."
+        },
+        {
+            "id": "95",
+            "rewrite1": "Select the text and apply the color with hex code #FF00FF as the highlight.",
+            "rewrite2": "Apply a highlight to the text using the color with hex code #FF00FF.",
+            "rewrite3": "Please apply the color #FF00FF as a highlight to the text."
+        },
+        {
+            "id": "96",
+            "rewrite1": "Update the highlighted text to the color with the hexadecimal value of #0000FF.",
+            "rewrite2": "Alter the background shading to the hexadecimal color value of #0000FF.",
+            "rewrite3": "Update the highlighting within the document to the color with the hexadecimal code #0000FF."
+        },
+        {
+            "id": "97",
+            "rewrite1": "Alter the font color to black.",
+            "rewrite2": "Alter the font color to black.",
+            "rewrite3": "Please alter the color of the text to black."
+        },
+        {
+            "id": "98",
+            "rewrite1": "Change the text color to purple.",
+            "rewrite2": "Change the font color to purple.",
+            "rewrite3": "Change the font color to purple."
+        },
+        {
+            "id": "99",
+            "rewrite1": "Change the font color to Indigo.",
+            "rewrite2": "Change the font color to indigo.",
+            "rewrite3": "Use a deep indigo shade for the font color."
+        }
+    ]
+}

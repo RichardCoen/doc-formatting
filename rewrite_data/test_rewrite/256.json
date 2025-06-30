@@ -1,0 +1,6 @@
+{
+    "id": "256",
+    "rewrite1": "In the sixth paragraph: please strip away any bold styling, set the First Line indent to 2 characters, and alter the font size to 8 points.",
+    "rewrite2": "Please make the following changes to the sixth paragraph: clear all bold styling, set the first line indent to 2 characters, and alter the font size to 8 points.",
+    "rewrite3": "In the sixth paragraph, please clear all instances of bold text. Then set the first line indentation to 2 characters, and alter the font size to 8 points."
+}

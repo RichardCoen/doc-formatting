@@ -1,0 +1,9 @@
+[subscript]: Specifies a value indicating whether the font is subscripted. true if the font format is subscript, false otherwise.
+```TypeScript
+subscript: boolean;
+```
+Example:
+```javascript
+font.subscript = true;
+```
+----------------

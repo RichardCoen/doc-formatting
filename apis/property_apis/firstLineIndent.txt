@@ -1,0 +1,10 @@
+[firstLineIndent]: Specifies the value of the first line or hanging indent in points. Use positive numbers to set the size of the first line indent, and use negative numbers to set the size of the hanging indent.
+```TypeScript
+firstLineIndent: number;
+```
+Example:
+```javascript
+paragraph.firstLineIndent = 10; // first line 10 point
+paragraph.firstLineIndent = -10; // hanging 10 point
+```
+----------------

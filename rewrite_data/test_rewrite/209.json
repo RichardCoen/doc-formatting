@@ -1,0 +1,6 @@
+{
+    "id": "209",
+    "rewrite1": "Please apply the following formatting changes to the selected text: Update the highlight color to blue, using the hex code #0000FF. Set the space following the paragraph to zero, and adjust the space before the paragraph to the equivalent of one line.",
+    "rewrite2": "Please apply the following adjustments to the selected text: modify the highlight color to the hexadecimal code #0000FF, ensure there is no space following the paragraph, and establish a single line of space before the paragraph starts.",
+    "rewrite3": "Please apply the following formatting changes to the selected text: Modify the highlight color to the hex value #0000FF. Ensure that there is no additional spacing following the paragraph by setting the 'after' line spacing to zero. Lastly, adjust the 'before' paragraph spacing so that it is equivalent to the height of one line."
+}

@@ -1,0 +1,6 @@
+[alignment]: Specify the paragraph alignment. Possible values are "left", "centered", "right", or "justified".
+Example:
+```javascript
+paragraph.alignment = "Centered";
+```
+----------------

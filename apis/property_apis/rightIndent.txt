@@ -1,0 +1,9 @@
+[rightIndent]: Specifies the right indent value of the paragraph in points.
+```TypeScript
+rightIndent: number;
+```
+Example:
+```javascript
+paragraph.rightIndent = 10;
+```
+----------------

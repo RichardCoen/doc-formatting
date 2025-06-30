@@ -1,0 +1,9 @@
+[bold]: Specifies a value that indicates whether the font is bold. true if the font format is bold, false otherwise.
+```TypeScript
+bold: boolean;
+```
+Example:
+```javascript
+font.bold = true;
+```
+----------------

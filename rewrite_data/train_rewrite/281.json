@@ -1,0 +1,6 @@
+{
+    "id": "281",
+    "rewrite1": "Please take the highlighted section and apply the following formatting changes: make the text bold, set the line spacing to 1 centimeter, and adjust the space following each paragraph to the equivalent of 3 lines. Additionally, configure the indentation so that the first line of each paragraph is indented by 1 character. Ensure any italicized text within the selection is returned to a regular font style.",
+    "rewrite2": "Please apply the following formatting changes to the highlighted section: first, make the text bold. Next, alter the line spacing to 1 cm. Then, change the paragraph spacing to have three lines after each paragraph. Set the indentation for the first line of each paragraph to 1 character. Finally, ensure that any italicized text is returned to the normal font style.",
+    "rewrite3": "Please proceed with the following adjustments to the highlighted section: apply bold formatting to the text; change the line spacing to 1 centimeter; alter the spacing following each paragraph to the equivalent of three lines; configure the indentation of the first line to 1 character; and ensure that any italicized text is reverted to a standard font style."
+}

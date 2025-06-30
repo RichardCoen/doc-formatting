@@ -1,0 +1,6 @@
+{
+    "id": "29",
+    "rewrite1": "Adjust the right indent so that it extends 2 characters into the margin, effectively creating a negative indent on the right side.",
+    "rewrite2": "Adjust the right indent of the document so that it extends 2 characters beyond the standard margin, creating a negative indent on the right side.",
+    "rewrite3": "Adjust the right indent of the document so that it is reduced by two characters."
+}

@@ -1,0 +1,6 @@
+{
+    "id": "443",
+    "rewrite1": "Please make the following changes to the document:\n\nFor the sixth paragraph:\n- Change the line spacing to Single.\n- Remove any bold formatting from the text.\n- Align the text to the left.\n- Set the font size to 10.5 points.\n\nFor the fifth paragraph:\n- Set the line spacing to exactly 12 points.\n- Insert a 10-point space following the paragraph.\n- Underline the text using the 'word underline' style.\n- Apply italics to the text.",
+    "rewrite2": "For the sixth paragraph, please set the line spacing to single and remove any bold formatting. Align the text to the left and adjust the font size to 10.5 points.\n\nRegarding the fifth paragraph, set the line spacing precisely to 12 points. Add a space of 10 points after the paragraph ends. Make sure to underline the text using the 'word underline' style and italicize the entire paragraph.",
+    "rewrite3": "Revised Instructions:\n\n- In the sixth paragraph, please change the line spacing to single line. Make sure the text is not bolded, align it to the left, and adjust the font size to 10.5 points.\n\n- Regarding the fifth paragraph, set the line spacing precisely to 12 points. Include a 10-point space following the paragraph. Underline the words and italicize the text for emphasis."
+}

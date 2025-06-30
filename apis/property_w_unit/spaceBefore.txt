@@ -1,0 +1,9 @@
+[spaceBefore]: Specifies the spacing before paragraphs in points.
+```TypeScript
+spaceBefore: number;
+```
+Example:
+```javascript
+paragraph.spaceBefore = 10;
+```
+----------------

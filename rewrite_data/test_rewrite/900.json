@@ -1,0 +1,6 @@
+{
+    "id": "900",
+    "rewrite1": "For the specified section, adjust the left indent to -2 cm, remove the bold formatting from the text, change the alignment to right-justify, switch the font to Arial, set the font size to 16 points, and ensure the italic styling is turned off.",
+    "rewrite2": "Please adjust the formatting of the highlighted section as follows: change the left indentation to negative 2 centimeters, remove the bold formatting, align the text to the right, switch the font to Arial, set the font size to 16 points, and ensure that the italic style is turned off.",
+    "rewrite3": "Please make the following adjustments to the highlighted section: change the left indent to negative 2 centimeters, remove the bold styling from the text, align the content to the right, switch the typeface to Arial, set the font size to 16 points, and ensure that the italic formatting is turned off."
+}

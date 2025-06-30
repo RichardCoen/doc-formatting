@@ -1,0 +1,9 @@
+[outlineLevel]: Specifies the paragraph's outline level,1-10,10 is body text.
+```TypeScript
+outlineLevel: number;
+```
+Example:
+```javascript
+paragraph.outlineLevel = 6
+```
+----------------

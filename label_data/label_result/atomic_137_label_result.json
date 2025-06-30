@@ -1,0 +1,1786 @@
+{
+    "Description": "Best rewrite choose.",
+    "data_list": [
+        {
+            "id": "0",
+            "user_input": "apply Level 1 Outline",
+            "rewrite1": "Please use the \"Level 1 Outline\" style in the formatting.",
+            "rewrite2": "Set the text to 'Level 1 Outline' formatting.",
+            "rewrite3": "Implement the \"Level 1 Outline\" formatting.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 5,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Please use the \"Level 1 Outline\" style in the formatting."
+        },
+        {
+            "id": "1",
+            "user_input": "change the Outline Level to Level 2",
+            "rewrite1": "Adjust the outline level so that it is set to Level 2.",
+            "rewrite2": "Adjust the Outline Level to be set at Level 2.",
+            "rewrite3": "Adjust the outline level to Level 2.",
+            "rewrite_scores": {
+                "rewrite1_score": 3,
+                "rewrite2_score": 6,
+                "rewrite3_score": 9
+            },
+            "best_rewrite": "Adjust the outline level to Level 2."
+        },
+        {
+            "id": "2",
+            "user_input": "format Outline level to Level 5",
+            "rewrite1": "Adjust the outline formatting to reflect Level 5 hierarchy.",
+            "rewrite2": "Set the outline level to Level 5 in the formatting options.",
+            "rewrite3": "Set the outline level formatting to Level 5.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 4,
+                "rewrite3_score": 9
+            },
+            "best_rewrite": "Set the outline level formatting to Level 5."
+        },
+        {
+            "id": "3",
+            "user_input": "apply Outline Level 6",
+            "rewrite1": "Set the text to Outline Level 6 format.",
+            "rewrite2": "Set the document's formatting to Outline Level 6.",
+            "rewrite3": "Set the formatting to Outline Level 6.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 0,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Set the text to Outline Level 6 format."
+        },
+        {
+            "id": "4",
+            "user_input": "format Outline level to 'Body Text'",
+            "rewrite1": "Please change the formatting of the Outline level to 'Body Text'.",
+            "rewrite2": "Set the formatting of the Outline level to \"Body Text.\"",
+            "rewrite3": "Set the formatting of the Outline level to 'Body Text.'",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 7,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Please change the formatting of the Outline level to 'Body Text'."
+        },
+        {
+            "id": "5",
+            "user_input": "change the Outline Level to 'Body Text'",
+            "rewrite1": "Please adjust the Outline Level to 'Body Text'.",
+            "rewrite2": "Set the Outline Level to 'Body Text'.",
+            "rewrite3": "Please adjust the Outline Level to 'Body Text'.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Please adjust the Outline Level to 'Body Text'."
+        },
+        {
+            "id": "6",
+            "user_input": "modify the First Line to be 12 points",
+            "rewrite1": "Adjust the first line's font size to 12 points.",
+            "rewrite2": "Adjust the first line's font size to 12 points.",
+            "rewrite3": "Adjust the first line so that it has a font size of 12 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 0,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "modify the First Line to be 12 points"
+        },
+        {
+            "id": "7",
+            "user_input": "change the First Line to 10 pt",
+            "rewrite1": "Adjust the first line indentation to 10 points.",
+            "rewrite2": "Adjust the first line indentation to a 10-point setting.",
+            "rewrite3": "Adjust the first line indentation to 10 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 4,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the first line indentation to 10 points."
+        },
+        {
+            "id": "8",
+            "user_input": "apply 1cm First Line",
+            "rewrite1": "Set the first line indent to 1 centimeter.",
+            "rewrite2": "Set the first line indentation to 1 cm.",
+            "rewrite3": "Set the first line indent to 1 cm.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 6,
+                "rewrite3_score": 8
+            },
+            "best_rewrite": "Set the first line indent to 1 cm."
+        },
+        {
+            "id": "9",
+            "user_input": "adjust First Line to 2 centimeter",
+            "rewrite1": "Set the first line indent to 2 centimeters.",
+            "rewrite2": "Set the first line indent to 2 centimeters.",
+            "rewrite3": "Set the first line indent to 2 centimeters.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the first line indent to 2 centimeters."
+        },
+        {
+            "id": "10",
+            "user_input": "set First Line to 1 ch",
+            "rewrite1": "Adjust the first line indentation to 1 character space.",
+            "rewrite2": "Adjust the first line indent to 1 character.",
+            "rewrite3": "Adjust the first line indent to 1 character.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 6,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Adjust the first line indentation to 1 character space."
+        },
+        {
+            "id": "11",
+            "user_input": "adjust First Line to 2 character",
+            "rewrite1": "Set the first-line indent to the space equivalent of two characters.",
+            "rewrite2": "Set the first line indentation to the equivalent of two characters.",
+            "rewrite3": "Please set the first line indent to the equivalent of two characters.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 6,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Please set the first line indent to the equivalent of two characters."
+        },
+        {
+            "id": "12",
+            "user_input": "modify the Hanging to be 8 points",
+            "rewrite1": "Adjust the hanging indent so that it is set to 8 points.",
+            "rewrite2": "Adjust the hanging indent so that it is set to 8 points.",
+            "rewrite3": "Adjust the hanging indent so that it is set to 8 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the hanging indent so that it is set to 8 points."
+        },
+        {
+            "id": "13",
+            "user_input": "change the Hanging to 6 pt",
+            "rewrite1": "\"Adjust the hanging indent to a 6-point measurement.\"",
+            "rewrite2": "Please adjust the hanging indent to 6 points.",
+            "rewrite3": "Adjust the hanging indent to 6 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 3,
+                "rewrite2_score": 7,
+                "rewrite3_score": 8
+            },
+            "best_rewrite": "Adjust the hanging indent to 6 points."
+        },
+        {
+            "id": "14",
+            "user_input": "apply 1cm Hanging",
+            "rewrite1": "Set a hanging indent of 1 cm.",
+            "rewrite2": "Set a 1-centimeter hanging indent.",
+            "rewrite3": "Set a hanging indent of 1 centimeter.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 6,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Set a hanging indent of 1 cm."
+        },
+        {
+            "id": "15",
+            "user_input": "adjust Hanging to 2 centimeter",
+            "rewrite1": "\"Set the hanging indent to 2 centimeters.\"",
+            "rewrite2": "Set the hanging indent to 2 centimeters.",
+            "rewrite3": "Set the hanging indent to 2 centimeters.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 3,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "\"Set the hanging indent to 2 centimeters.\""
+        },
+        {
+            "id": "16",
+            "user_input": "set Hanging to 1 ch",
+            "rewrite1": "Adjust the paragraph formatting to include a hanging indent of one character space.",
+            "rewrite2": "Adjust the paragraph format to a hanging indent of one character.",
+            "rewrite3": "Adjust the paragraph formatting so that the first line has a hanging indent of one character space.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 8,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Adjust the paragraph format to a hanging indent of one character."
+        },
+        {
+            "id": "17",
+            "user_input": "adjust Hanging to 2 character",
+            "rewrite1": "Set the hanging indent to the width of two characters.",
+            "rewrite2": "Please set the hanging indent to the width of two characters.",
+            "rewrite3": "\"Set the hanging indent to the width of two characters.\"",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 8,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Please set the hanging indent to the width of two characters."
+        },
+        {
+            "id": "18",
+            "user_input": "adjust the right indent to 12 pt",
+            "rewrite1": "Set the right indent to 12 points.",
+            "rewrite2": "Set the right indent to 12 points.",
+            "rewrite3": "Set the right indent to 12 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the right indent to 12 points."
+        },
+        {
+            "id": "19",
+            "user_input": "have a right indent of 16 points",
+            "rewrite1": "Please set the right indent to 16 points.",
+            "rewrite2": "Set the right indent to 16 points.",
+            "rewrite3": "Set the right indent to 16 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Please set the right indent to 16 points."
+        },
+        {
+            "id": "20",
+            "user_input": "modify the right indentation to 1 cm",
+            "rewrite1": "Adjust the right margin indentation to a width of 1 centimeter.",
+            "rewrite2": "Adjust the indentation on the right side to a 1 cm setting.",
+            "rewrite3": "Adjust the right margin indentation to a width of 1 centimeter.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 9,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the indentation on the right side to a 1 cm setting."
+        },
+        {
+            "id": "21",
+            "user_input": "set a 2 centimeter right indent",
+            "rewrite1": "Apply a right indent of 2 centimeters to the text.",
+            "rewrite2": "Please adjust the right indent to 2 centimeters.",
+            "rewrite3": "Adjust the right indent to 2 centimeters.",
+            "rewrite_scores": {
+                "rewrite1_score": 2,
+                "rewrite2_score": 8,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Please adjust the right indent to 2 centimeters."
+        },
+        {
+            "id": "22",
+            "user_input": "set the right indet to 0.5 ch",
+            "rewrite1": "Adjust the right indent to half a character space, 0.5 ch.",
+            "rewrite2": "Adjust the right indent to half a character width, or 0.5 ch.",
+            "rewrite3": "Adjust the right indent to half a character width (0.5 ch).",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 2,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Adjust the right indent to half a character space, 0.5 ch."
+        },
+        {
+            "id": "23",
+            "user_input": "change the right indent setting to the width of two characters",
+            "rewrite1": "Please adjust the right indentation to equal the width of two characters.",
+            "rewrite2": "Adjust the right indent setting to be equivalent to the width of two characters.",
+            "rewrite3": "Adjust the indentation on the right side to be equivalent to the width of two characters.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Please adjust the right indentation to equal the width of two characters."
+        },
+        {
+            "id": "24",
+            "user_input": "adjust the right indent to -12 pt",
+            "rewrite1": "Set the right indent to a negative 12-point value.",
+            "rewrite2": "Set the right indent to a negative 12-point value.",
+            "rewrite3": "Set the right indent to negative twelve points.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 0,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Set the right indent to a negative 12-point value."
+        },
+        {
+            "id": "25",
+            "user_input": "have a right indent of a negative 16 points",
+            "rewrite1": "Set the right indent to negative 16 points.",
+            "rewrite2": "Set the right indent to -16 points.",
+            "rewrite3": "Set the right indent to -16 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 9,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the right indent to -16 points."
+        },
+        {
+            "id": "26",
+            "user_input": "modify the right indentation to -1cm",
+            "rewrite1": "Adjust the indentation on the right side to -1 cm.",
+            "rewrite2": "Adjust the right indent setting to negative one centimeter.",
+            "rewrite3": "Adjust the right indent setting to negative one centimeter (-1cm).",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 4,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Adjust the indentation on the right side to -1 cm."
+        },
+        {
+            "id": "27",
+            "user_input": "set a negative 2 centimeter right indent",
+            "rewrite1": "Apply a right indent of negative 2 centimeters.",
+            "rewrite2": "Apply a right indent of negative 2 centimeters.",
+            "rewrite3": "Apply a right indent of negative 2 centimeters.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Apply a right indent of negative 2 centimeters."
+        },
+        {
+            "id": "28",
+            "user_input": "set the right indet to -0.5 ch",
+            "rewrite1": "Please adjust the right indent to negative 0.5 characters.",
+            "rewrite2": "Please adjust the right indent to negative 0.5 character spaces.",
+            "rewrite3": "Adjust the right indent to negative 0.5 character spacing.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 6,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Please adjust the right indent to negative 0.5 characters."
+        },
+        {
+            "id": "29",
+            "user_input": "set a negative right indent of 2 characters",
+            "rewrite1": "Adjust the right indent so that it extends 2 characters into the margin, effectively creating a negative indent on the right side.",
+            "rewrite2": "Adjust the right indent of the document so that it extends 2 characters beyond the standard margin, creating a negative indent on the right side.",
+            "rewrite3": "Adjust the right indent of the document so that it is reduced by two characters.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 5,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Adjust the right indent so that it extends 2 characters into the margin, effectively creating a negative indent on the right side."
+        },
+        {
+            "id": "30",
+            "user_input": "adjust the left indent to 10 pt",
+            "rewrite1": "Set the left indent to 10 points.",
+            "rewrite2": "Set the left indentation to 10 points.",
+            "rewrite3": "Set the left indent to 10 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 6,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the left indent to 10 points."
+        },
+        {
+            "id": "31",
+            "user_input": "have a left indent of 15 points",
+            "rewrite1": "Set the left indent to 15 points.",
+            "rewrite2": "Set the left indent to 15 points.",
+            "rewrite3": "Set the left indent to 15 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the left indent to 15 points."
+        },
+        {
+            "id": "32",
+            "user_input": "modify the left indentation to 2 cm",
+            "rewrite1": "Adjust the left indent to a width of 2 centimeters.",
+            "rewrite2": "Adjust the indentation on the left side to be exactly 2 centimeters.",
+            "rewrite3": "Adjust the left margin to a 2 cm indentation.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 4,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Adjust the left indent to a width of 2 centimeters."
+        },
+        {
+            "id": "33",
+            "user_input": "set a 1.5 centimeter left indent",
+            "rewrite1": "Apply a left indent of 1.5 centimeters.",
+            "rewrite2": "Adjust the left indent to 1.5 centimeters.",
+            "rewrite3": "Adjust the left indent to a width of 1.5 centimeters.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 8,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Adjust the left indent to 1.5 centimeters."
+        },
+        {
+            "id": "34",
+            "user_input": "set the left indet to 1 ch",
+            "rewrite1": "Adjust the left indent to one character.",
+            "rewrite2": "Adjust the left indent to one character width.",
+            "rewrite3": "Adjust the left indent to one character.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the left indent to one character."
+        },
+        {
+            "id": "35",
+            "user_input": "change the left indent setting to the width of half character",
+            "rewrite1": "Adjust the left indent to the equivalent width of half a character.",
+            "rewrite2": "Adjust the left indent to be equivalent to the width of half a character.",
+            "rewrite3": "Adjust the left indent so that it's set to a width equal to half the width of a character.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Adjust the left indent to the equivalent width of half a character."
+        },
+        {
+            "id": "36",
+            "user_input": "adjust the left indent to -10 pt",
+            "rewrite1": "Set the left indent to a negative 10-point offset.",
+            "rewrite2": "Set the left indent to negative 10 points.",
+            "rewrite3": "Set the left indent to a negative 10 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 8,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Set the left indent to negative 10 points."
+        },
+        {
+            "id": "37",
+            "user_input": "have a left indent of a negative 15 points",
+            "rewrite1": "Set the left indent to -15 points.",
+            "rewrite2": "Set the left indent to -15 points.",
+            "rewrite3": "Set the left indent to -15 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the left indent to -15 points."
+        },
+        {
+            "id": "38",
+            "user_input": "modify the left indentation to -2 cm",
+            "rewrite1": "Adjust the left margin so that it is set to a negative indentation of 2 centimeters.",
+            "rewrite2": "Adjust the left margin so that it is set to a negative 2 centimeter indentation.",
+            "rewrite3": "Adjust the left margin so that it is set at a negative 2 centimeter indentation.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 9,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the left margin so that it is set to a negative 2 centimeter indentation."
+        },
+        {
+            "id": "39",
+            "user_input": "set a negative 1.5 centimeter left indent",
+            "rewrite1": "Adjust the left indent to -1.5 centimeters.",
+            "rewrite2": "Adjust the left indent to -1.5 centimeters.",
+            "rewrite3": "Apply a left indent of negative 1.5 centimeters.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Adjust the left indent to -1.5 centimeters."
+        },
+        {
+            "id": "40",
+            "user_input": "set the left indet to -1 character",
+            "rewrite1": "Adjust the left indent to a negative value, specifically by reducing it by one character.",
+            "rewrite2": "Adjust the left indent to a negative value, precisely at minus one character.",
+            "rewrite3": "Adjust the left indent so that it is reduced by one character.",
+            "rewrite_scores": {
+                "rewrite1_score": 0,
+                "rewrite2_score": 6,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the left indent to a negative value, precisely at minus one character."
+        },
+        {
+            "id": "41",
+            "user_input": "set a negative left indent of 0.5 ch",
+            "rewrite1": "Apply a left indent of negative 0.5 character spaces.",
+            "rewrite2": "Adjust the left indent to a negative 0.5 character space.",
+            "rewrite3": "Apply a left indent of negative 0.5 characters to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 8,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Adjust the left indent to a negative 0.5 character space."
+        },
+        {
+            "id": "42",
+            "user_input": "Adjust the line spacing to Single line",
+            "rewrite1": "Set the line spacing to a single line format.",
+            "rewrite2": "Set the line spacing to Single.",
+            "rewrite3": "Set the line spacing to 'Single.'",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 6,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Set the line spacing to a single line format."
+        },
+        {
+            "id": "43",
+            "user_input": "modify line spacing at Double lines",
+            "rewrite1": "Adjust the line spacing to double.",
+            "rewrite2": "Adjust the line spacing to double-spacing.",
+            "rewrite3": "Adjust the line spacing to double.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 6,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the line spacing to double."
+        },
+        {
+            "id": "44",
+            "user_input": "apply 1.5 lines line spacing",
+            "rewrite1": "Set the line spacing to 1.5 lines.",
+            "rewrite2": "Set the line spacing to 1.5 lines.",
+            "rewrite3": "Set the line spacing to 1.5 lines.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the line spacing to 1.5 lines."
+        },
+        {
+            "id": "45",
+            "user_input": "set line spacing to Muliple at 3 lines",
+            "rewrite1": "Adjust the line spacing to 'Multiple' with a setting of 3 lines.",
+            "rewrite2": "Adjust the line spacing to a Multiple setting with a value of 3 lines.",
+            "rewrite3": "Adjust the line spacing in the document to 'Multiple' and set it to a factor of 3 lines.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 5,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Adjust the line spacing to a Multiple setting with a value of 3 lines."
+        },
+        {
+            "id": "46",
+            "user_input": "apply exactly 12 pt Line spacing",
+            "rewrite1": "Set the line spacing to precisely 12 points.",
+            "rewrite2": "Set the line spacing precisely to 12 pt.",
+            "rewrite3": "Set the line spacing to precisely 12 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 6,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the line spacing to precisely 12 points."
+        },
+        {
+            "id": "47",
+            "user_input": "modify line spacing to 1 cm",
+            "rewrite1": "Adjust the line spacing to be exactly 1 centimeter.",
+            "rewrite2": "Adjust the line spacing to a 1 cm interval.",
+            "rewrite3": "Adjust the line spacing to a distance of 1 centimeter.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 4,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Adjust the line spacing to be exactly 1 centimeter."
+        },
+        {
+            "id": "48",
+            "user_input": "set 0 line space before the paragraph",
+            "rewrite1": "Adjust the paragraph settings to have zero spacing before it begins.",
+            "rewrite2": "Adjust the paragraph to have zero line spacing before it.",
+            "rewrite3": "Adjust the paragraph to have zero spacing before it begins.",
+            "rewrite_scores": {
+                "rewrite1_score": 3,
+                "rewrite2_score": 6,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Adjust the paragraph to have zero line spacing before it."
+        },
+        {
+            "id": "49",
+            "user_input": "adjust the paragraph spacing before to one line",
+            "rewrite1": "Set the spacing before paragraphs to one line.",
+            "rewrite2": "Set the spacing before each paragraph to one line.",
+            "rewrite3": "Change the spacing above the paragraph to one line.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 5,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Set the spacing before paragraphs to one line."
+        },
+        {
+            "id": "50",
+            "user_input": "with a 0.5 line space before",
+            "rewrite1": "Insert a half-line space before the text.",
+            "rewrite2": "\"Set the line spacing to have a 0.5 space before each new line.\"",
+            "rewrite3": "Incorporate a half-line space before the text begins.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Insert a half-line space before the text."
+        },
+        {
+            "id": "51",
+            "user_input": "add a 6-point space before the paragraph",
+            "rewrite1": "Insert a 6-point spacing above the paragraph.",
+            "rewrite2": "Insert a space of six points above the paragraph.",
+            "rewrite3": "Please insert a space of 6 points above the paragraph.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 3,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Insert a 6-point spacing above the paragraph."
+        },
+        {
+            "id": "52",
+            "user_input": "modify a 1 cm space before",
+            "rewrite1": "Adjust the document to include a 1 cm indent before the paragraph.",
+            "rewrite2": "Adjust the document to include a 1-centimeter space before the designated section.",
+            "rewrite3": "Please adjust the document to include a 1-centimeter space at the beginning.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 4,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Adjust the document to include a 1 cm indent before the paragraph."
+        },
+        {
+            "id": "53",
+            "user_input": "add a 8 pt space before the paragraph",
+            "rewrite1": "Insert an 8-point space above the paragraph.",
+            "rewrite2": "Insert an 8-point space preceding the paragraph.",
+            "rewrite3": "Insert an 8-point space before the paragraph.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 4,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Insert an 8-point space before the paragraph."
+        },
+        {
+            "id": "54",
+            "user_input": "increase the paragraph spacing before to 0.5 cm",
+            "rewrite1": "Adjust the spacing before each paragraph to 0.5 centimeters.",
+            "rewrite2": "Adjust the spacing before each paragraph to 0.5 centimeters.",
+            "rewrite3": "Adjust the spacing before paragraphs to 0.5 cm.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 0,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Adjust the spacing before each paragraph to 0.5 centimeters."
+        },
+        {
+            "id": "55",
+            "user_input": "set 0 line space after the paragraph",
+            "rewrite1": "Adjust the paragraph formatting to have zero spacing after the line.",
+            "rewrite2": "Adjust the paragraph formatting to have zero spacing after each paragraph.",
+            "rewrite3": "Adjust the paragraph formatting to eliminate the space following each paragraph.",
+            "rewrite_scores": {
+                "rewrite1_score": 2,
+                "rewrite2_score": 6,
+                "rewrite3_score": 1
+            },
+            "best_rewrite": "Adjust the paragraph formatting to have zero spacing after each paragraph."
+        },
+        {
+            "id": "56",
+            "user_input": "adjust the paragraph spacing after to 3 lines",
+            "rewrite1": "Please set the spacing following each paragraph to be equivalent to the height of three lines.",
+            "rewrite2": "Set the space following each paragraph to be equivalent to the height of three lines.",
+            "rewrite3": "Set the space following each paragraph to the equivalent of three lines.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 7,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Set the space following each paragraph to be equivalent to the height of three lines."
+        },
+        {
+            "id": "57",
+            "user_input": "with a 2.5 line space after",
+            "rewrite1": "Please apply a line spacing of 2.5 after each sentence.",
+            "rewrite2": "Please adjust the document to include a line spacing of 2.5 after each paragraph.",
+            "rewrite3": "Please set the document with a line spacing of 2.5.",
+            "rewrite_scores": {
+                "rewrite1_score": 0,
+                "rewrite2_score": 3,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Please adjust the document to include a line spacing of 2.5 after each paragraph."
+        },
+        {
+            "id": "58",
+            "user_input": "add a 8-point space after the paragraph",
+            "rewrite1": "Insert an 8-point space following each paragraph.",
+            "rewrite2": "Insert an 8-point spacing following each paragraph.",
+            "rewrite3": "\"Insert an 8-point spacing following each paragraph.\"",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Insert an 8-point space following each paragraph."
+        },
+        {
+            "id": "59",
+            "user_input": "modify a 1.5 cm space after",
+            "rewrite1": "Adjust the document to include a 1.5-centimeter spacing afterwards.",
+            "rewrite2": "Adjust the document to include a 1.5 centimeter spacing after paragraphs.",
+            "rewrite3": "Please adjust the document to include a space of 1.5 centimeters following the specified element.",
+            "rewrite_scores": {
+                "rewrite1_score": 3,
+                "rewrite2_score": 6,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Adjust the document to include a 1.5 centimeter spacing after paragraphs."
+        },
+        {
+            "id": "60",
+            "user_input": "add a 10 pt space after the paragraph",
+            "rewrite1": "Insert a 10-point space following the paragraph.",
+            "rewrite2": "Insert a 10-point gap following each paragraph.",
+            "rewrite3": "Please insert a space of 10 points following the paragraph.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 2,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Insert a 10-point space following the paragraph."
+        },
+        {
+            "id": "61",
+            "user_input": "increase the paragraph spacing after to 1 cm",
+            "rewrite1": "Adjust the spacing following each paragraph to a length of 1 centimeter.",
+            "rewrite2": "Adjust the spacing following each paragraph to a length of 1 centimeter.",
+            "rewrite3": "Adjust the spacing after each paragraph to 1 centimeter.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 2,
+                "rewrite3_score": 8
+            },
+            "best_rewrite": "Adjust the spacing after each paragraph to 1 centimeter."
+        },
+        {
+            "id": "62",
+            "user_input": "set alignment to right-align",
+            "rewrite1": "Adjust the text alignment to align with the right-hand margin.",
+            "rewrite2": "Adjust the text so that it is aligned to the right side of the page.",
+            "rewrite3": "Adjust the text so that it is aligned to the right side of the page.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the text alignment to align with the right-hand margin."
+        },
+        {
+            "id": "63",
+            "user_input": "justify the text alignment",
+            "rewrite1": "Set the text alignment to justified.",
+            "rewrite2": "\"Align the text so that it is justified.\"",
+            "rewrite3": "Adjust the text so that it is aligned evenly along both the left and right margins.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 7,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "\"Align the text so that it is justified.\""
+        },
+        {
+            "id": "64",
+            "user_input": "Left-align the text",
+            "rewrite1": "Align the text to the left.",
+            "rewrite2": "Align the text to the left.",
+            "rewrite3": "Align the text to the left.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Align the text to the left."
+        },
+        {
+            "id": "65",
+            "user_input": "apply center alignment",
+            "rewrite1": "\"Set the text to be aligned in the center.\"",
+            "rewrite2": "Adjust the text so that it is centered on the page.",
+            "rewrite3": "Set the text to be centered on the page.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 5,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "\"Set the text to be aligned in the center.\""
+        },
+        {
+            "id": "66",
+            "user_input": "bold the text",
+            "rewrite1": "Make the text bold.",
+            "rewrite2": "Please apply bold formatting to the text.",
+            "rewrite3": "Make the text bold.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Make the text bold."
+        },
+        {
+            "id": "67",
+            "user_input": "apply bold formatting",
+            "rewrite1": "\"Set the text to boldface.\"",
+            "rewrite2": "Set the text to bold.",
+            "rewrite3": "Set the text to bold.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 9,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the text to bold."
+        },
+        {
+            "id": "68",
+            "user_input": "remove any bold formatting",
+            "rewrite1": "Eliminate all instances of bold text formatting.",
+            "rewrite2": "Take out all instances of bold text formatting.",
+            "rewrite3": "Please clear all text of any bold styling.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 4,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Please clear all text of any bold styling."
+        },
+        {
+            "id": "69",
+            "user_input": "unbold the text",
+            "rewrite1": "Please remove the bold formatting from the text.",
+            "rewrite2": "\"Please remove the bold formatting from the text.\"",
+            "rewrite3": "Please remove the bold formatting from the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Please remove the bold formatting from the text."
+        },
+        {
+            "id": "70",
+            "user_input": "apply double strikethrough",
+            "rewrite1": "Please implement a double strikethrough on the text.",
+            "rewrite2": "Please enable the double strikethrough feature on the text.",
+            "rewrite3": "Implement a double strikethrough effect on the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 7,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Please implement a double strikethrough on the text."
+        },
+        {
+            "id": "71",
+            "user_input": "add double strikethrough formatting",
+            "rewrite1": "Apply double strikethrough to the text.",
+            "rewrite2": "Apply a double strikethrough to the text.",
+            "rewrite3": "Apply double strikethrough to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Apply double strikethrough to the text."
+        },
+        {
+            "id": "72",
+            "user_input": "remove the double strikethrough",
+            "rewrite1": "Eliminate the double strikethrough formatting from the text.",
+            "rewrite2": "Eliminate the instances of double strikethrough from the document.",
+            "rewrite3": "Eliminate the double strikethrough from the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 3,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Eliminate the double strikethrough formatting from the text."
+        },
+        {
+            "id": "73",
+            "user_input": "clear the double strikethrough",
+            "rewrite1": "Remove the double strikethrough formatting.",
+            "rewrite2": "Remove the double strikethrough formatting.",
+            "rewrite3": "Remove the double strikethrough formatting.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Remove the double strikethrough formatting."
+        },
+        {
+            "id": "74",
+            "user_input": "make the text italicized",
+            "rewrite1": "Set the text to an italic style.",
+            "rewrite2": "Set the text to an italic style.",
+            "rewrite3": "Set the text to an italic style.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the text to an italic style."
+        },
+        {
+            "id": "75",
+            "user_input": "apply italic formatting",
+            "rewrite1": "\"Set the text to italics.\"",
+            "rewrite2": "Switch the text to an italicized style.",
+            "rewrite3": "\"Set the text to italics.\"",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "\"Set the text to italics.\""
+        },
+        {
+            "id": "76",
+            "user_input": "disable italic style",
+            "rewrite1": "Turn off the italic formatting in the text.",
+            "rewrite2": "Turn off the italic formatting.",
+            "rewrite3": "Turn off the italic formatting.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 8,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Turn off the italic formatting."
+        },
+        {
+            "id": "77",
+            "user_input": "remove italic formatting",
+            "rewrite1": "Please strip away the italicized styling from the text.",
+            "rewrite2": "Eliminate the use of italics in the document's formatting.",
+            "rewrite3": "\"Eliminate the use of italics in the document formatting.\"",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 5,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Please strip away the italicized styling from the text."
+        },
+        {
+            "id": "78",
+            "user_input": "apply strikethrough formatting",
+            "rewrite1": "Implement the strikethrough style to the text.",
+            "rewrite2": "Add strikethrough to the text.",
+            "rewrite3": "Implement strikethrough styling to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 9,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Add strikethrough to the text."
+        },
+        {
+            "id": "79",
+            "user_input": "add a strikethrough effect",
+            "rewrite1": "Apply a strikethrough to the text.",
+            "rewrite2": "Apply a strikethrough to the text.",
+            "rewrite3": "Apply a strikethrough to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Apply a strikethrough to the text."
+        },
+        {
+            "id": "80",
+            "user_input": "remove the strikethrough",
+            "rewrite1": "Please eliminate any text that has been struck through.",
+            "rewrite2": "Eliminate the strikethrough formatting from the text.",
+            "rewrite3": "Please take out the strikethrough formatting from the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 1,
+                "rewrite2_score": 8,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Eliminate the strikethrough formatting from the text."
+        },
+        {
+            "id": "81",
+            "user_input": "disable the strikethrough feature",
+            "rewrite1": "Turn off the strikethrough option.",
+            "rewrite2": "Please turn off the strikethrough option in the document settings.",
+            "rewrite3": "Turn off the strikethrough option.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 4,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Turn off the strikethrough option."
+        },
+        {
+            "id": "82",
+            "user_input": "apply superscript formatting",
+            "rewrite1": "Set the selected text to superscript style.",
+            "rewrite2": "Please format the text using superscript.",
+            "rewrite3": "Activate the superscript feature for the text formatting.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 6,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Set the selected text to superscript style."
+        },
+        {
+            "id": "83",
+            "user_input": "convert superscript style",
+            "rewrite1": "Change the text to superscript format.",
+            "rewrite2": "Change the text to superscript format.",
+            "rewrite3": "Change the text to superscript format.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Change the text to superscript format."
+        },
+        {
+            "id": "84",
+            "user_input": "remove superscript formatting",
+            "rewrite1": "Please eliminate the use of superscript in the document's formatting.",
+            "rewrite2": "Eliminate the use of superscript in the document's formatting.",
+            "rewrite3": "Please clear any text that is currently formatted in superscript.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 5,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Please eliminate the use of superscript in the document's formatting."
+        },
+        {
+            "id": "85",
+            "user_input": "clear the superscript style",
+            "rewrite1": "Remove the superscript formatting.",
+            "rewrite2": "Remove the superscript formatting.",
+            "rewrite3": "Remove the superscript formatting.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Remove the superscript formatting."
+        },
+        {
+            "id": "86",
+            "user_input": "apply subscript formatting",
+            "rewrite1": "Please format the text to include subscript.",
+            "rewrite2": "Please format the text with subscript styling.",
+            "rewrite3": "Please format the text to use subscript styling.",
+            "rewrite_scores": {
+                "rewrite1_score": 3,
+                "rewrite2_score": 8,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Please format the text with subscript styling."
+        },
+        {
+            "id": "87",
+            "user_input": "convert subscript style",
+            "rewrite1": "Change the text formatting to use subscript.",
+            "rewrite2": "Change the text to subscript format.",
+            "rewrite3": "Change the text to subscript format.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 6,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Change the text formatting to use subscript."
+        },
+        {
+            "id": "88",
+            "user_input": "remove subscript formatting",
+            "rewrite1": "Eliminate the use of subscript in the document's formatting.",
+            "rewrite2": "Eliminate the use of subscript in the formatting.",
+            "rewrite3": "Please clear any subscript formatting present in the document.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 9,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Eliminate the use of subscript in the formatting."
+        },
+        {
+            "id": "89",
+            "user_input": "disable the subscript style",
+            "rewrite1": "Turn off the subscript formatting option.",
+            "rewrite2": "Turn off the subscript formatting option.",
+            "rewrite3": "Turn off the subscript formatting option.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Turn off the subscript formatting option."
+        },
+        {
+            "id": "90",
+            "user_input": "clear the highlight formatting",
+            "rewrite1": "Remove any highlighted formatting from the text.",
+            "rewrite2": "Remove any highlighting from the text in the document.",
+            "rewrite3": "Remove any highlighting from the text formatting.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 4,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Remove any highlighted formatting from the text."
+        },
+        {
+            "id": "91",
+            "user_input": "remove the highlight color",
+            "rewrite1": "Clear the highlighted text formatting.",
+            "rewrite2": "Eliminate the highlighting from the text.",
+            "rewrite3": "Take out the background color from the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 5,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Clear the highlighted text formatting."
+        },
+        {
+            "id": "92",
+            "user_input": "apply a yellow highlight",
+            "rewrite1": "Please add a yellow highlight to the text.",
+            "rewrite2": "Add a yellow highlight to the text.",
+            "rewrite3": "Please use a yellow highlighter feature on the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 8,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Add a yellow highlight to the text."
+        },
+        {
+            "id": "93",
+            "user_input": "highlight the text with a lime color",
+            "rewrite1": "Apply a lime-colored highlight to the text.",
+            "rewrite2": "Apply a lime-colored highlight to the text.",
+            "rewrite3": "Apply a lime-colored highlight to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Apply a lime-colored highlight to the text."
+        },
+        {
+            "id": "94",
+            "user_input": "change the highlight color to maroon",
+            "rewrite1": "Please update the highlighting by applying a maroon shade.",
+            "rewrite2": "Adjust the text highlighting to a maroon shade.",
+            "rewrite3": "Please update the highlight color to a maroon shade.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 8,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Adjust the text highlighting to a maroon shade."
+        },
+        {
+            "id": "95",
+            "user_input": "highlight the text in hex code #FF00FF",
+            "rewrite1": "Select the text and apply the color with hex code #FF00FF as the highlight.",
+            "rewrite2": "Apply a highlight to the text using the color with hex code #FF00FF.",
+            "rewrite3": "Please apply the color #FF00FF as a highlight to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 7,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Apply a highlight to the text using the color with hex code #FF00FF."
+        },
+        {
+            "id": "96",
+            "user_input": "change the highlight color to hex code #0000FF",
+            "rewrite1": "Update the highlighted text to the color with the hexadecimal value of #0000FF.",
+            "rewrite2": "Alter the background shading to the hexadecimal color value of #0000FF.",
+            "rewrite3": "Update the highlighting within the document to the color with the hexadecimal code #0000FF.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 4,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Update the highlighted text to the color with the hexadecimal value of #0000FF."
+        },
+        {
+            "id": "97",
+            "user_input": "change the text color to Black",
+            "rewrite1": "Alter the font color to black.",
+            "rewrite2": "Alter the font color to black.",
+            "rewrite3": "Please alter the color of the text to black.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 2,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Please alter the color of the text to black."
+        },
+        {
+            "id": "98",
+            "user_input": "apply Purple as the font color",
+            "rewrite1": "Change the text color to purple.",
+            "rewrite2": "Change the font color to purple.",
+            "rewrite3": "Change the font color to purple.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Change the text color to purple."
+        },
+        {
+            "id": "99",
+            "user_input": "with Indigo font color",
+            "rewrite1": "Change the font color to Indigo.",
+            "rewrite2": "Change the font color to indigo.",
+            "rewrite3": "Use a deep indigo shade for the font color.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Change the font color to Indigo."
+        },
+        {
+            "id": "100",
+            "user_input": "apply blue color to font",
+            "rewrite1": "Change the font color to blue.",
+            "rewrite2": "Change the font color to blue.",
+            "rewrite3": "Change the font color to blue.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Change the font color to blue."
+        },
+        {
+            "id": "101",
+            "user_input": "change the text color to hexadecimal code #FAFAD2",
+            "rewrite1": "\"Please update the text color to the hex code #FAFAD2.\"",
+            "rewrite2": "Alter the font color to the hex value #FAFAD2.",
+            "rewrite3": "Alter the color of the text to the hexadecimal value #FAFAD2.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 6,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "\"Please update the text color to the hex code #FAFAD2.\""
+        },
+        {
+            "id": "102",
+            "user_input": "format the font with the hex color #FFFF00",
+            "rewrite1": "Apply the font color using the hexadecimal code #FFFF00 to the text.",
+            "rewrite2": "Set the font color to the hexadecimal code #FFFF00.",
+            "rewrite3": "Change the font color to the hexadecimal code #FFFF00.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 8,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Set the font color to the hexadecimal code #FFFF00."
+        },
+        {
+            "id": "103",
+            "user_input": "change the font size to 8 point",
+            "rewrite1": "Adjust the font size to 8 point.",
+            "rewrite2": "Please adjust the font size to 8 point.",
+            "rewrite3": "Adjust the font size to 8 point.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the font size to 8 point."
+        },
+        {
+            "id": "104",
+            "user_input": "adjust the font size to 16 points",
+            "rewrite1": "Change the font size to 16 points.",
+            "rewrite2": "Please increase the font size to 16 points.",
+            "rewrite3": "Set the font size to 16 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 5,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Set the font size to 16 points."
+        },
+        {
+            "id": "105",
+            "user_input": "adjust the text to a 36-point font size",
+            "rewrite1": "Set the font size of the text to 36 points.",
+            "rewrite2": "Please modify the font size of the text to 36 points.",
+            "rewrite3": "Change the font size of the text to 36 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 7,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Set the font size of the text to 36 points."
+        },
+        {
+            "id": "106",
+            "user_input": "increase the font size to 48 points.",
+            "rewrite1": "Adjust the font size to 48 points.",
+            "rewrite2": "Please adjust the font size to 48 points.",
+            "rewrite3": "Adjust the font size to 48 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the font size to 48 points."
+        },
+        {
+            "id": "107",
+            "user_input": "decrease the font size to 5.5 points.",
+            "rewrite1": "Reduce the text size to 48 points.",
+            "rewrite2": "Reduce the size of the text to 48 points.",
+            "rewrite3": "Reduce the size of the text to 48 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 0,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "decrease the font size to 5.5 points."
+        },
+        {
+            "id": "108",
+            "user_input": "set its font size to 10.5 points",
+            "rewrite1": "Adjust the font size to 10.5 points.",
+            "rewrite2": "Adjust the font size to 10.5 points.",
+            "rewrite3": "Adjust the font size to 10.5 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Adjust the font size to 10.5 points."
+        },
+        {
+            "id": "109",
+            "user_input": "select Calibri Light as the font style",
+            "rewrite1": "Choose 'Calibri Light' for your font style.",
+            "rewrite2": "Choose \"Calibri Light\" for the font style.",
+            "rewrite3": "Choose 'Calibri Light' for the font style.",
+            "rewrite_scores": {
+                "rewrite1_score": 3,
+                "rewrite2_score": 6,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Choose \"Calibri Light\" for the font style."
+        },
+        {
+            "id": "110",
+            "user_input": "change the font to Calibri",
+            "rewrite1": "Please update the document's typeface to Calibri.",
+            "rewrite2": "Please switch the document's font to Calibri.",
+            "rewrite3": "Please switch the document's font to Calibri.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 5,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Please update the document's typeface to Calibri."
+        },
+        {
+            "id": "111",
+            "user_input": "select Malgun Gothic as the font type",
+            "rewrite1": "Choose \"Malgun Gothic\" from the font options.",
+            "rewrite2": "Please choose \"Malgun Gothic\" as your font selection.",
+            "rewrite3": "Choose 'Malgun Gothic' for the font style.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 5,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Choose \"Malgun Gothic\" from the font options."
+        },
+        {
+            "id": "112",
+            "user_input": "change the font to Microsoft JhengHei",
+            "rewrite1": "Set the font style to Microsoft JhengHei.",
+            "rewrite2": "Alter the text style to Microsoft JhengHei.",
+            "rewrite3": "\"Set the font style to Microsoft JhengHei.\"",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 6,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the font style to Microsoft JhengHei."
+        },
+        {
+            "id": "113",
+            "user_input": "switch the font to Times New Roman",
+            "rewrite1": "Change the document's font to Times New Roman.",
+            "rewrite2": "Change the font style to Times New Roman.",
+            "rewrite3": "Change the font style to Times New Roman.",
+            "rewrite_scores": {
+                "rewrite1_score": 2,
+                "rewrite2_score": 9,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Change the font style to Times New Roman."
+        },
+        {
+            "id": "114",
+            "user_input": "apply the Arial font",
+            "rewrite1": "Switch to the Arial typeface.",
+            "rewrite2": "Change the typeface to Arial.",
+            "rewrite3": "Switch to the Arial typeface.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Switch to the Arial typeface."
+        },
+        {
+            "id": "115",
+            "user_input": "apply the Microsoft YaHei font",
+            "rewrite1": "Set the font to Microsoft YaHei.",
+            "rewrite2": "Switch the font to Microsoft YaHei.",
+            "rewrite3": "Set the font to Microsoft YaHei.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Set the font to Microsoft YaHei."
+        },
+        {
+            "id": "116",
+            "user_input": "set the font type to SimHei",
+            "rewrite1": "Change the font style to SimHei.",
+            "rewrite2": "Change the font style to SimHei.",
+            "rewrite3": "Change the font style to SimHei.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Change the font style to SimHei."
+        },
+        {
+            "id": "117",
+            "user_input": "remove any underline",
+            "rewrite1": "Eliminate all instances of underlined text.",
+            "rewrite2": "Eliminate all underlining from the text.",
+            "rewrite3": "Eliminate all instances of underlined text.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 8,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Eliminate all underlining from the text."
+        },
+        {
+            "id": "118",
+            "user_input": "apply an underline",
+            "rewrite1": "Enable underlining for the selected text.",
+            "rewrite2": "Please add an underline to the specified text.",
+            "rewrite3": "Please add an underline to the specified text.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 7,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Enable underlining for the selected text."
+        },
+        {
+            "id": "119",
+            "user_input": "apply 'word underline' style",
+            "rewrite1": "Please format the text using the \"underline\" feature in Word.",
+            "rewrite2": "Implement the 'underline' formatting style to the text.",
+            "rewrite3": "Please format the text using the 'underline' feature in Word.",
+            "rewrite_scores": {
+                "rewrite1_score": 5,
+                "rewrite2_score": 5,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Please format the text using the \"underline\" feature in Word."
+        },
+        {
+            "id": "120",
+            "user_input": "Use a Double underline",
+            "rewrite1": "Apply a double underline to the text.",
+            "rewrite2": "Apply a double underline to the text.",
+            "rewrite3": "Apply a double underline to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Apply a double underline to the text."
+        },
+        {
+            "id": "121",
+            "user_input": "Use a Dotted underline",
+            "rewrite1": "Apply a dotted underline to the text.",
+            "rewrite2": "Apply a dotted underline to the text.",
+            "rewrite3": "Apply a dotted underline for emphasis.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Apply a dotted underline to the text."
+        },
+        {
+            "id": "122",
+            "user_input": "select a wave underline style",
+            "rewrite1": "Choose a wavy underline style.",
+            "rewrite2": "Choose a wavy underline style.",
+            "rewrite3": "Choose a wavy underline style.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Choose a wavy underline style."
+        },
+        {
+            "id": "123",
+            "user_input": "select a heavy wave underline style",
+            "rewrite1": "Choose a bold wavy underline format.",
+            "rewrite2": "Choose a bold wavy underline style.",
+            "rewrite3": "Choose a bold, wavy underline format.",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 7,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Choose a bold wavy underline style."
+        },
+        {
+            "id": "124",
+            "user_input": "add a Wave Double underline",
+            "rewrite1": "Please apply a double wave underline to the text.",
+            "rewrite2": "Please apply a double wave underline.",
+            "rewrite3": "Apply a double wave underline to the text.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 6,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Please apply a double wave underline to the text."
+        },
+        {
+            "id": "125",
+            "user_input": "Make the font in the first paragraph bold.",
+            "rewrite1": "Set the text in the opening paragraph to a bold typeface.",
+            "rewrite2": "Set the text in the opening paragraph to bold typeface.",
+            "rewrite3": "\"Set the text in the initial paragraph to boldface.\"",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 4,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Set the text in the opening paragraph to a bold typeface."
+        },
+        {
+            "id": "126",
+            "user_input": "Italicize the second paragraph.",
+            "rewrite1": "Please apply italics to the second paragraph.",
+            "rewrite2": "Please apply italic formatting to the second paragraph in the document.",
+            "rewrite3": "Set the second paragraph in italics.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 5,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Please apply italics to the second paragraph."
+        },
+        {
+            "id": "127",
+            "user_input": "Set the color of the third paragraph to gray.",
+            "rewrite1": "Change the color of the third paragraph to gray.",
+            "rewrite2": "Change the color of the third paragraph to a gray shade.",
+            "rewrite3": "Change the color of the third paragraph to gray.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 6,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Change the color of the third paragraph to gray."
+        },
+        {
+            "id": "128",
+            "user_input": "Adjust the font size of the fourth paragraph to 20 points.",
+            "rewrite1": "Change the font size in the fourth paragraph to 20 points.",
+            "rewrite2": "Change the font size for the fourth paragraph to 20 points.",
+            "rewrite3": "Change the font size of the fourth paragraph to 20 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 1,
+                "rewrite3_score": 3
+            },
+            "best_rewrite": "Change the font size in the fourth paragraph to 20 points."
+        },
+        {
+            "id": "129",
+            "user_input": "Modify the font of the fifth paragraph to Arial.",
+            "rewrite1": "Change the font style of the fifth paragraph to Arial.",
+            "rewrite2": "Change the font style of the fifth paragraph to Arial.",
+            "rewrite3": "Change the typeface of the fifth paragraph to Arial.",
+            "rewrite_scores": {
+                "rewrite1_score": 8,
+                "rewrite2_score": 0,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "Change the font style of the fifth paragraph to Arial."
+        },
+        {
+            "id": "130",
+            "user_input": "Make the font in the sixth paragraph unbold.",
+            "rewrite1": "Please remove the bold formatting from the text in the sixth paragraph.",
+            "rewrite2": "Change the font style in the sixth paragraph to remove the bold formatting.",
+            "rewrite3": "Please change the font of the sixth paragraph to a regular weight, removing the bold formatting.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 6,
+                "rewrite3_score": 2
+            },
+            "best_rewrite": "Please remove the bold formatting from the text in the sixth paragraph."
+        },
+        {
+            "id": "131",
+            "user_input": "Remove italic formatting for the seventh paragraph.",
+            "rewrite1": "Switch the seventh paragraph back to a regular font style, eliminating any italicization.",
+            "rewrite2": "Change the text in the seventh paragraph to a regular font style, removing any italicization.",
+            "rewrite3": "Change the seventh paragraph to a normal font style by eliminating the italics.",
+            "rewrite_scores": {
+                "rewrite1_score": 3,
+                "rewrite2_score": 4,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Change the seventh paragraph to a normal font style by eliminating the italics."
+        },
+        {
+            "id": "132",
+            "user_input": "Set the color of the eighth paragraph to red.",
+            "rewrite1": "Change the text color of the eighth paragraph to red.",
+            "rewrite2": "Change the text color of the eighth paragraph to red.",
+            "rewrite3": "Change the text color of the eighth paragraph to red.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 0
+            },
+            "best_rewrite": "Change the text color of the eighth paragraph to red."
+        },
+        {
+            "id": "133",
+            "user_input": "Increase the font size of the ninth paragraph to 32 points.",
+            "rewrite1": "\"Please adjust the font size of the ninth paragraph to 32 points.\"",
+            "rewrite2": "\"Adjust the font size for the ninth paragraph, making it larger at 32 points.\"",
+            "rewrite3": "Adjust the font size of the ninth paragraph to 32 points.",
+            "rewrite_scores": {
+                "rewrite1_score": 7,
+                "rewrite2_score": 3,
+                "rewrite3_score": 7
+            },
+            "best_rewrite": "\"Please adjust the font size of the ninth paragraph to 32 points.\""
+        },
+        {
+            "id": "134",
+            "user_input": "Modify the font of the tenth paragraph to SimHei.",
+            "rewrite1": "Change the font style of the tenth paragraph to SimHei.",
+            "rewrite2": "Change the font style of the tenth paragraph to SimHei.",
+            "rewrite3": "Change the typeface of the tenth paragraph to SimHei.",
+            "rewrite_scores": {
+                "rewrite1_score": 9,
+                "rewrite2_score": 0,
+                "rewrite3_score": 6
+            },
+            "best_rewrite": "Change the font style of the tenth paragraph to SimHei."
+        },
+        {
+            "id": "135",
+            "user_input": "Set the selected part as a superscript.",
+            "rewrite1": "Change the formatting of the highlighted text to superscript.",
+            "rewrite2": "Change the formatting of the highlighted text to superscript.",
+            "rewrite3": "\"Format the highlighted section to appear as a superscript.\"",
+            "rewrite_scores": {
+                "rewrite1_score": 6,
+                "rewrite2_score": 0,
+                "rewrite3_score": 4
+            },
+            "best_rewrite": "Change the formatting of the highlighted text to superscript."
+        },
+        {
+            "id": "136",
+            "user_input": "Make the chosen text as the subscript.",
+            "rewrite1": "Please format the selected text to appear as a subscript.",
+            "rewrite2": "Set the selected text to subscript format.",
+            "rewrite3": "Format the selected text to appear as a subscript.",
+            "rewrite_scores": {
+                "rewrite1_score": 4,
+                "rewrite2_score": 9,
+                "rewrite3_score": 5
+            },
+            "best_rewrite": "Set the selected text to subscript format."
+        }
+    ]
+}

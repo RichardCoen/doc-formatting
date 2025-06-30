@@ -1,0 +1,15 @@
+{
+    "dataset": "Val",
+    "model": "deepseek_v2",
+    "method": "few_shot/17_shot",
+    "error_rate": {
+        "RichApi.Error": 0.7692307692307693,
+        "TypeError": 0.18461538461538463,
+        "ReferenceError": 0.046153846153846156
+    },
+    "error_count": {
+        "RichApi.Error": 50,
+        "TypeError": 12,
+        "ReferenceError": 3
+    }
+}

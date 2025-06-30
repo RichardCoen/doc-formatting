@@ -1,0 +1,9 @@
+[doubleStrikeThrough]: Specifies a value that indicates whether the font has double strikethrough. True if the font format is set to double strikethrough text, false otherwise.
+```TypeScript
+doubleStrikeThrough: boolean;
+```
+Example:
+```javascript
+font.doubleStrikeThrough=true;
+```
+----------------

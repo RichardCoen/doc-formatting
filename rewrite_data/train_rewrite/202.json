@@ -1,0 +1,6 @@
+{
+    "id": "202",
+    "rewrite1": "Please make the following changes to the second paragraph: Set the first line indent to 2 characters, adjust the right indent to a negative 0.5 character, clear any italic formatting, and include a 2.5 line spacing after the paragraph.",
+    "rewrite2": "In the second paragraph, set the first line indentation to 2 characters and the right indent to negative 0.5 characters. Ensure that italic formatting is removed and apply a 2.5-line spacing after the paragraph.",
+    "rewrite3": "Please make the following adjustments to the second paragraph: change the first line indent to two characters and set the right indent to negative 0.5 characters. Ensure that you remove any italic formatting from this paragraph. Additionally, set the line spacing to include a 2.5 line space after the paragraph."
+}

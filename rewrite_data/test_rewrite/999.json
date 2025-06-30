@@ -1,0 +1,6 @@
+{
+    "id": "999",
+    "rewrite1": "Please make the following formatting changes to the ninth paragraph: set the right indent to 12 points and the left indent to a negative 1 character. Adjust the spacing before the paragraph to the equivalent of one line and the spacing after to that of three lines. Align the text to the center, switch the text color to black, and change the font size to 8 points.",
+    "rewrite2": "In the ninth paragraph, please make the following adjustments:\n\n- Set the right indent to 12 points.\n- Modify the spacing before the paragraph to equal one line.\n- Align the text to the center.\n- Change the text color to black.\n- Alter the font size to 8 points.\n- Adjust the spacing after the paragraph to span three lines.\n- Establish the left indent at a negative value equivalent to one character.",
+    "rewrite3": "In the ninth paragraph, please make the following adjustments: set the right indentation to 12 points, establish a space of one line before the paragraph begins, and align the text to the center. Additionally, alter the text color to black and modify the font size to 8 points. Then, create a space equivalent to three lines after the paragraph, and finally, set the left indent to a negative value, precisely -1 character."
+}

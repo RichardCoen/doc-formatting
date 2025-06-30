@@ -1,0 +1,6 @@
+{
+    "id": "137",
+    "rewrite1": "Begin by adjusting the right indent of the first paragraph so it's equivalent to the space taken up by two characters. Next, add a space of 1 cm before the paragraph starts. Then, set the left indent to retract by the width of one character. Finally, apply a line spacing of 1.5 lines to the paragraph for improved readability.",
+    "rewrite2": "Begin by adjusting the first paragraph's right indent to be equivalent to the width of two characters. Next, introduce a space of 1 centimeter before the paragraph starts. For the left indent, set it to extend -1 character to the left. Lastly, apply a line spacing of 1.5 lines to ensure the text is adequately spaced for readability.",
+    "rewrite3": "Begin by adjusting the first paragraph's right indent to accommodate the breadth of two characters. Next, introduce a space of 1 cm before the paragraph starts. Alter the left indent to extend one character to the left, effectively setting it to negative one character. Lastly, configure the line spacing to 1.5 lines for a more readable layout."
+}

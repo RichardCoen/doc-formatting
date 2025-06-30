@@ -1,0 +1,17 @@
+{
+    "dataset": "Val",
+    "model": "gpt4",
+    "method": "few_shot/17_shot",
+    "error_rate": {
+        "RichApi.Error": 0.9354838709677419,
+        "SyntaxError": 0.010752688172043012,
+        "TypeError": 0.03225806451612903,
+        "ReferenceError": 0.021505376344086023
+    },
+    "error_count": {
+        "RichApi.Error": 87,
+        "SyntaxError": 1,
+        "TypeError": 3,
+        "ReferenceError": 2
+    }
+}

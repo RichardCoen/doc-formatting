@@ -1,0 +1,6 @@
+{
+    "id": "35",
+    "rewrite1": "Adjust the left indent to the equivalent width of half a character.",
+    "rewrite2": "Adjust the left indent to be equivalent to the width of half a character.",
+    "rewrite3": "Adjust the left indent so that it's set to a width equal to half the width of a character."
+}

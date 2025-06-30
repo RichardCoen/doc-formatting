@@ -1,0 +1,17 @@
+{
+    "dataset": "Val",
+    "model": "codeqwen",
+    "method": "self_debug",
+    "error_rate": {
+        "RichApi.Error": 0.5773955773955773,
+        "TypeError": 0.39803439803439805,
+        "ReferenceError": 0.0171990171990172,
+        "SyntaxError": 0.007371007371007371
+    },
+    "error_count": {
+        "RichApi.Error": 235,
+        "TypeError": 162,
+        "ReferenceError": 7,
+        "SyntaxError": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "dataset": "Val",
+    "model": "deepseek_v2",
+    "method": "doc_prompt/e5_20",
+    "error_rate": {
+        "RichApi.Error": 0.5967741935483871,
+        "TypeError": 0.3064516129032258,
+        "ReferenceError": 0.07526881720430108,
+        "SyntaxError": 0.021505376344086023
+    },
+    "error_count": {
+        "RichApi.Error": 111,
+        "TypeError": 57,
+        "ReferenceError": 14,
+        "SyntaxError": 4
+    }
+}

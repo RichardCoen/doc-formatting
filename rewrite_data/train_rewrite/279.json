@@ -1,0 +1,6 @@
+{
+    "id": "279",
+    "rewrite1": "Please make the following adjustments to the second paragraph: First, set the spacing after the paragraph to 2.5 lines. Then, clear any bold formatting that is applied to the text. Next, apply a left indent, but set it to -15 points. After that, change the line spacing to Single. Finally, align the text so that it is justified.",
+    "rewrite2": "For the second paragraph, please implement the following changes: Set the spacing after the paragraph to 2.5 lines. Remove any bold styling that may be present. Apply a left indent of -15 points. Change the line spacing to single. Lastly, justify the text alignment.",
+    "rewrite3": "Please apply the following formatting changes to the second paragraph:\n\n- Ensure there is a 2.5 line space following the paragraph.\n- Remove all bold styling from the text.\n- Set the left indent to -15 points.\n- Adjust the line spacing to single line spacing.\n- Justify the text alignment for a uniform look."
+}

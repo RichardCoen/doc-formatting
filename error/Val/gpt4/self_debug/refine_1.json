@@ -1,0 +1,15 @@
+{
+    "dataset": "Val",
+    "model": "gpt4",
+    "method": "self_debug",
+    "error_rate": {
+        "RichApi.Error": 0.6601941747572816,
+        "TypeError": 0.3300970873786408,
+        "ReferenceError": 0.009708737864077669
+    },
+    "error_count": {
+        "RichApi.Error": 136,
+        "TypeError": 68,
+        "ReferenceError": 2
+    }
+}

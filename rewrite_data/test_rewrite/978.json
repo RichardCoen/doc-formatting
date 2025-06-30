@@ -1,0 +1,6 @@
+{
+    "id": "978",
+    "rewrite1": "For the fourth paragraph, please apply the following formatting changes:\n\n1. Create a negative left indent of 0.5 characters.\n2. Change the outline level to Level 5.\n3. Increase the font size to 16 points.\n4. Apply a text highlight using the color with the hex code #FF00FF.\n5. Make the text bold.\n6. Adjust the right indent to -2 characters.\n7. Add a double underline to the text.",
+    "rewrite2": "In the fourth paragraph, please implement the following changes: create a left indent reduction of 0.5 characters, adjust the outline level to Level 5, increase the font size to 16 points, and apply a bold style to the text. Then, highlight it using the color with the hex code #FF00FF. Additionally, set a negative right indent of 2 characters and finish by adding a double underline to the text.",
+    "rewrite3": "In the fourth paragraph, please apply the following changes:\n\n- Create a left indent reduction of 0.5 characters.\n- Change the outline level formatting to Level 5.\n- Adjust the font size to 16 points for improved readability.\n- Highlight the text with the color represented by the hex code #FF00FF.\n- Bold the text to make it stand out.\n- Set a right indent reduction of 2 characters.\n- Finally, apply a double underline for emphasis."
+}

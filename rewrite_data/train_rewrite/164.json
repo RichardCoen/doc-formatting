@@ -1,0 +1,6 @@
+{
+    "id": "164",
+    "rewrite1": "In the tenth paragraph, please apply a highlight with the color corresponding to hex code #FF00FF. Then, modify the right indent setting to negative 12 points. Next, change the font to Microsoft YaHei, and finally, ensure there is no spacing before the paragraph by setting the line space to 0.",
+    "rewrite2": "In the tenth paragraph, please apply the following changes: First, change the text color using the hexadecimal color code #FF00FF for highlighting. Then, modify the right indent setting by decreasing it to -12 points. Next, switch the font to Microsoft YaHei. Lastly, ensure that there is no additional spacing before the paragraph by setting the 'space before' to 0.",
+    "rewrite3": "In the tenth paragraph, please apply the following changes: Change the text color to the hex value #FF00FF, set the right indent to negative 12 points, switch the typeface to Microsoft YaHei, and ensure there is no space above the paragraph."
+}

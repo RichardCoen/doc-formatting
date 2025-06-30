@@ -1,0 +1,15 @@
+{
+    "dataset": "Val",
+    "model": "deepseek_coder",
+    "method": "self_debug",
+    "error_rate": {
+        "TypeError": 0.7591240875912408,
+        "RichApi.Error": 0.20985401459854014,
+        "SyntaxError": 0.03102189781021898
+    },
+    "error_count": {
+        "TypeError": 416,
+        "RichApi.Error": 115,
+        "SyntaxError": 17
+    }
+}

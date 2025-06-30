@@ -1,0 +1,17 @@
+{
+    "dataset": "Val",
+    "model": "codeqwen",
+    "method": "doc_prompt/e5_20",
+    "error_rate": {
+        "RichApi.Error": 0.5361702127659574,
+        "TypeError": 0.4127659574468085,
+        "SyntaxError": 0.03829787234042553,
+        "ReferenceError": 0.01276595744680851
+    },
+    "error_count": {
+        "RichApi.Error": 126,
+        "TypeError": 97,
+        "SyntaxError": 9,
+        "ReferenceError": 3
+    }
+}

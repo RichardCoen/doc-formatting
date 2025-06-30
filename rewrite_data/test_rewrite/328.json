@@ -1,0 +1,6 @@
+{
+    "id": "328",
+    "rewrite1": "\"Please apply the following formatting to the selected text: use the color hex code #FF00FF to highlight it, adjust the left indent to one character's width, and align the text so it is justified.\"",
+    "rewrite2": "For the selected text, apply a highlight using the hex color #FF00FF. Adjust the left indent to 1 character width, and align the text so that it is justified.",
+    "rewrite3": "Please apply the following formatting to the selected text: Use the highlight color with the hex code #FF00FF, adjust the left indent to 1 character width, and align the text so that it is justified."
+}

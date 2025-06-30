@@ -1,0 +1,6 @@
+{
+    "id": "929",
+    "rewrite1": "Please center align the selected text, change the font color to blue, and switch the font to Arial. Then, decrease the right indent by 12 points. Apply an underline that only appears under words (word underline), and set the first line indent to 1 character.",
+    "rewrite2": "Please follow these steps for the specified section of the document:\n\n1. Align the text in the center.\n2. Change the font color to blue.\n3. Switch the font to Arial.\n4. Set the right indent to negative 12 points.\n5. Use the 'word underline' styling for emphasis.\n6. Adjust the first line indentation to one character space.",
+    "rewrite3": "Please follow these steps to format the highlighted section of the document: \n\n1. Align the text to the center.\n2. Change the font color to blue.\n3. Switch the font to Arial.\n4. Set the right indent to negative 12 points.\n5. Apply the 'word underline' style to the text.\n6. Adjust the first line indent to 1 character. \n\nMake sure each instruction is applied in the order given to maintain consistency in formatting."
+}

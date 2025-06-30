@@ -1,0 +1,6 @@
+{
+    "id": "394",
+    "rewrite1": "For the chosen segment, set the first line indent to 2 characters, introduce a right indent with a negative value of 16 points, and apply an underline for emphasis.",
+    "rewrite2": "Please modify the formatting for the selected text as follows: Set the first line indent to 2 characters. Adjust the right indent to -16 points. Finally, apply an underline to the entire selected portion.",
+    "rewrite3": "Please modify the formatting of the selected text by setting the first line indent to 2 characters and adjusting the right indent to -16 points. Additionally, apply an underline to this section."
+}

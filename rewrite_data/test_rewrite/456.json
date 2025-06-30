@@ -1,0 +1,6 @@
+{
+    "id": "456",
+    "rewrite1": "In the document, please make the following adjustments to the second paragraph: Set the first line indent to two characters and alter the outline level to Level 2. Introduce an 8-point space before the paragraph begins. Change the font to SimHei and modify the line spacing to a single line.",
+    "rewrite2": "For the second paragraph, please do the following: set the first line indentation to 2 characters, modify the outline level to be Level 2, insert an 8-point space above the paragraph, change the font to SimHei, and adjust the line spacing to a single line.",
+    "rewrite3": "Please make the following formatting changes to the second paragraph: \n\n- Indent the first line by two characters.\n- Modify the Outline Level to be Level 2.\n- Insert an 8 pt space above the paragraph.\n- Change the font to SimHei.\n- Set the line spacing to Single."
+}

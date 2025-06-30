@@ -1,0 +1,6 @@
+{
+    "id": "1111",
+    "rewrite1": "For paragraph six: Set the outline level to 6, adjust the font size to 8 points, add a dotted underline, and indent the right side by 16 points.\n\nFor paragraph eight: Change the line spacing to Multiple with a factor of 3 lines, ensure there's no extra space following the paragraph, clear any underlining, and italicize the text.",
+    "rewrite2": "Please proceed with the following adjustments to the document:\n\n- In the sixth paragraph, assign Outline Level 6 and adjust the font size to 8 points. Implement a dotted underline style and establish a right indent of 16 points.\n\n- In the eighth paragraph, configure the line spacing to 'Multiple' at a span of 3 lines. Ensure there's no additional space following the paragraph. Eliminate any existing underline formatting and apply italics to the text.",
+    "rewrite3": "Revised Instructions:\n\n\"Adjust the following formatting for the sixth paragraph: set the Outline Level to 6, modify the font size to 8 points, apply a dotted underline style, and introduce a right indent of 16 points.\n\nFor the eighth paragraph, please implement these changes: configure the line spacing to Multiple at a factor of 3 lines, ensure there is no additional space following the paragraph (set to 0), remove any existing underline formatting, and italicize the text.\""
+}

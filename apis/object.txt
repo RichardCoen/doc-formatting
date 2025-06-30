@@ -1,0 +1,23 @@
+[Word.Font]: Gets the text format of the region. Use this object to get and set the font name, size, color, and other properties.
+Example:
+```javascript
+const paragraph = context.document.body.paragraphs.getFirst();
+const font = paragraph.font;
+const selectrange = context.document.getSelection();
+const selectfont = selectrange.font;
+```
+----------------
+[Word.Paragraph]: Represents a selection, range, content control, or individual paragraph in the document body.
+Example:
+```javascript
+const firstparagraph = context.document.body.paragraphs.getFirst();
+```
+----------------
+
+
+[paragraph.getFirst()]: Gets the first paragraph in this collection. ItemNotFoundIf the collection is empty, an error is raised.
+Example:
+```javascript
+const paragraph = context.document.getSelection().paragraphs.getFirst();
+```
+----------------

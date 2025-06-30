@@ -1,0 +1,6 @@
+{
+    "id": "880",
+    "rewrite1": "Please apply the following formatting changes to the selected text: Increase the font size to 16 points, and add a wavy underline for emphasis. Ensure there is no space before the paragraph begins, and adjust the right indent so that it is reduced by two characters. Align the text so that it is justified, creating a neat and uniform look. Lastly, change the font color to a shade of blue.",
+    "rewrite2": "Please apply the following formatting changes to the selected text: \n- Change the font size to 16 points.\n- Underline the text using the 'wave' style.\n- Eliminate any space before the paragraph by setting the line spacing to '0'.\n- Create a negative indent on the right side by 2 characters.\n- Justify the alignment of the text so it spreads evenly across the page.\n- Alter the font color to blue.",
+    "rewrite3": "Please make the following changes to the selected text: Increase the font size to 16 points, apply a wavy underline for emphasis, ensure there is no spacing before the start of the paragraph, adjust the right indent to -2 characters for a unique margin effect, align the text to be justified, and lastly, color the font in a shade of blue."
+}

@@ -1,0 +1,9 @@
+[underline]: | "Mixed" | "None" | "Hidden" | "DotLine" | "Single" | "Word" | "Double" | "Thick" | "Dotted" | "DottedHeavy" | "DashLine" | "DashLineHeavy" | "DashLineLong" | "DashLineLongHeavy" | "DotDashLine" | "DotDashLineHeavy" | "TwoDotDashLine" | "TwoDotDashLineHeavy" | "Wave" | "WaveHeavy" | "WaveDouble";Specifies a value that indicates the underline type of the font. "None" if the font has no underlines.
+```TypeScript
+underline: Word.UnderlineType
+```
+Example:
+```javascript
+font.underline = 'Single';
+```
+----------------

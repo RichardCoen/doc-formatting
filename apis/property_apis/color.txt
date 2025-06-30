@@ -1,0 +1,9 @@
+[color]: Specifies the color of the specified font. Values can be provided in the format "#RRGGBB" or as color names.
+```TypeScript
+color: boolean;
+```
+Example:
+```javascript
+example:font.color = 'red';
+```
+----------------

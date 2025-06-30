@@ -1,0 +1,6 @@
+{
+    "id": "770",
+    "rewrite1": "In the second paragraph, please take the following actions:\n\n- Eliminate any underlining present in the text.\n- Alter the text color to black.\n- Modify the right indent, setting it to a negative 12 points.\n- Reduce the font size to 48 points.\n- Adjust the left indent so that it is equivalent to the width of half a character.\n- Set the Outline Level to 'Body Text'.",
+    "rewrite2": "For the second paragraph, please proceed with the following changes: eliminate any underlining from the text and alter the text color to black. Modify the right indent by setting it to negative 12 points and reduce the font size down to 48 points. Adjust the left indent so that it corresponds to the width of a half character and set the Outline Level to 'Body Text.'",
+    "rewrite3": "For the second paragraph, please make the following adjustments: ensure that any underlined text is cleared and set the font color to black. Modify the right indent to a negative twelve points. Then, reduce the font size to 48 points. Adjust the left indent to be equivalent to the width of half a character and alter the Outline Level to reflect 'Body Text'."
+}

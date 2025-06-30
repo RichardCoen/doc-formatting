@@ -1,0 +1,6 @@
+{
+    "id": "629",
+    "rewrite1": "In the fourth paragraph, please change the font to Malgun Gothic. Implement a 1cm hanging indent and ensure that any italicized text is reverted to a standard font style. Adjust the font size to 10.5 points and set the left indent to a negative value, specifically minus 1 character.",
+    "rewrite2": "In the fourth paragraph, switch the font to Malgun Gothic and adjust the font size to 10.5 points. Apply a 1cm hanging indent and make sure to eliminate any italic formatting. Additionally, set the left indent to a negative value, precisely -1 character.",
+    "rewrite3": "In the fourth paragraph, switch the font to Malgun Gothic and adjust the font size to 10.5 points. Apply a 1cm hanging indent and ensure that the left indent is set back by one character. Additionally, remove any italic formatting from this section."
+}

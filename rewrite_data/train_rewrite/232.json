@@ -1,0 +1,6 @@
+{
+    "id": "232",
+    "rewrite1": "Select the specified text and apply the following adjustments: change the line spacing to zero before the paragraph begins, alter the Outline level to Level 5, adjust the First Line indentation to 12 points, apply a negative left indent of 0.5 character spaces, and convert the font to Times New Roman.",
+    "rewrite2": "For the selected text, adjust the spacing to have zero lines before the paragraph. Change the Outline level formatting to Level 5. Alter the first line indent to 12 points. Apply a negative left indent of 0.5 character. Lastly, transition the text to a Times New Roman font.",
+    "rewrite3": "Please make the following adjustments to the selected text in your Word document:\n\n1. Eliminate any spacing before the paragraph by setting the line space to 0.\n2. Change the outline level for the paragraph to Level 5.\n3. Adjust the first line indent to 12 points.\n4. Apply a negative left indent of 0.5 character spaces.\n5. Switch the paragraph's font to Times New Roman."
+}

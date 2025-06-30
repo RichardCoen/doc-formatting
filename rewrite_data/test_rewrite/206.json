@@ -1,0 +1,6 @@
+{
+    "id": "206",
+    "rewrite1": "In the seventh paragraph, implement a first-line indent of 1 centimeter. Then, create a left indent that is reduced by 0.5 character spaces. Finally, adjust the spacing above the paragraph to be equivalent to the height of one line.",
+    "rewrite2": "In the seventh paragraph, implement a first-line indent of 1 centimeter. Then, create a left indent, but this time make it negative, at half a character width. Finally, modify the spacing above the paragraph to equal the height of one line.",
+    "rewrite3": "In the seventh paragraph, please create a first line indent of 1 centimeter. Then, apply a left indent of -0.5 character. Finally, adjust the space before the paragraph to the equivalent of one line."
+}

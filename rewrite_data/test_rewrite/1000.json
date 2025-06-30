@@ -1,0 +1,6 @@
+{
+    "id": "1000",
+    "rewrite1": "In the eighth paragraph, please change the font color to Purple. Then, adjust the left indent to 1.5 centimeters. Apply an underline that only appears under words, and ensure there is no extra space before the paragraph begins. If there is any italic formatting, remove it. Set the paragraph to have a hanging indent of 2 characters. Finally, add a space of 8 points after the paragraph.",
+    "rewrite2": "Please proceed to the eighth paragraph and make the following adjustments:\n\n- Change the font color to Purple.\n- Create a left indent of 1.5 centimeters.\n- Apply the 'word underline' style for emphasis.\n- Ensure there is no space above the paragraph by setting the line space before to 0.\n- If there is any italic formatting, remove it entirely.\n- Adjust the paragraph's Hanging indent to accommodate 2 characters.\n- Finally, add a small 8-point space following the paragraph for better readability.",
+    "rewrite3": "In the eighth paragraph, please change the font color to purple. Then, adjust the left indent to 1.5 centimeters. Apply an underline to the words only, and make sure there is no space before the paragraph begins. If there's any italicized text, remove that formatting. Set the hanging indent to 2 characters and finally, add a space of 8 points after the paragraph."
+}
