@@ -55,9 +55,7 @@ def copy_files(src_dir, dst_dir):
 
 def gemini_api(prompt):
     generation_config = {"temperature": 0.0, "top_p": 0.0, "top_k": None}
-    # api_key = 'AIzaSyCoTs1CgpGmvvIiD72Crvwo_SVH28kcZPQ'
-    # api_key = 'AIzaSyCA_rmxOKdENi0ctKkDRws6CltyqarYqTA'
-    api_key = 'AIzaSyC4AtU9TbCluWPeVWmqbBBeTXfmTZq1B2o'
+    api_key = ''
     genai.configure(api_key=api_key, transport='rest')
     model = genai.GenerativeModel('models/gemini-pro', generation_config = generation_config)
     processed_flag = False
@@ -76,8 +74,8 @@ def gemini_api(prompt):
 
 def gpt35_zz(prompt,tempetature=0.0):
     client = OpenAI(
-        api_key="sk-5arlg3fVWhZJKGMpE9B584D5E1Bb4a46898339D69903D4Ed",
-        base_url='https://tb.plus7.plus/v1/'
+        api_key="",
+        base_url=''
     )
     processed_flag = False
     while not processed_flag:
@@ -106,8 +104,8 @@ def gpt35_zz(prompt,tempetature=0.0):
 
 def gpt4_zz(prompt,tempetature=0.0):
     client = OpenAI(
-        api_key="sk-V7SNtQpr4wXNAOeH6b6f8dAf7e114dDc89C0506dD7Cc868b",
-        base_url = 'https://tb.plus7.plus/v1/'
+        api_key="",
+        base_url = ''
     )
     processed_flag = False
     while not processed_flag:
@@ -136,8 +134,8 @@ def gpt4_zz(prompt,tempetature=0.0):
 
 def gpt4_preview(prompt,tempetature=0.0):
     client = OpenAI(
-        api_key="sk-V7SNtQpr4wXNAOeH6b6f8dAf7e114dDc89C0506dD7Cc868b",
-        base_url = 'https://tb.plus7.plus/v1/'
+        api_key="",
+        base_url = ''
     )
     processed_flag = False
     while not processed_flag:
@@ -162,7 +160,7 @@ def gpt4_preview(prompt,tempetature=0.0):
             print('Error! Sleep')
 
 def qwen_turbo(prompt):
-    dashscope.api_key = "sk-1688b9d9c9cf438a81b73a24b7ec4de0"
+    dashscope.api_key = ""
     processed_flag = False
     while not processed_flag:
         try:
@@ -194,7 +192,7 @@ def qwen_turbo(prompt):
 
 def code_qwen(prompt):
     # 定义服务器的地址和端口号
-    server_address = "http://10.26.42.1:8025"
+    server_address = ""
     # 定义调用的端点 URL
     endpoint_url = server_address + "/generate"
     # 定义要发送的数据（prompt）
@@ -216,7 +214,7 @@ def code_qwen(prompt):
 
 def llama3(prompt):
     data = {'prompt': prompt}
-    response = requests.post('http://10.26.42.1:8025/generate_response', json=data)
+    response = requests.post('', json=data)
     # 获取服务器返回的响应
     if response.status_code == 200:
         response_data = response.json()
@@ -230,7 +228,7 @@ def llama3(prompt):
 
 def deepseek_v2(prompt):
     # for backward compatibility, you can still use `https://api.deepseek.com/v1` as `base_url`.
-    client = OpenAI(api_key="sk-ac809ed8fe9c41a59bcada4e6fcf1157", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="", base_url="https://api.deepseek.com")
     completion = client.chat.completions.create(
         model="deepseek-chat",
         messages=[
@@ -249,7 +247,7 @@ def deepseek_v2(prompt):
 
 def deepseek_v2_l(prompt):
     # for backward compatibility, you can still use `https://api.deepseek.com/v1` as `base_url`.
-    client = OpenAI(api_key="sk-84acbccd0d0843ab964ba9de51ecd332", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="", base_url="https://api.deepseek.com")
     completion = client.chat.completions.create(
         model="deepseek-chat",
         messages=[
@@ -268,7 +266,7 @@ def deepseek_v2_l(prompt):
 
 def deepseek_coder(prompt):
     # for backward compatibility, you can still use `https://api.deepseek.com/v1` as `base_url`.
-    client = OpenAI(api_key="sk-ac809ed8fe9c41a59bcada4e6fcf1157", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="", base_url="https://api.deepseek.com")
     completion = client.chat.completions.create(
         model="deepseek-coder",
         messages=[
@@ -289,7 +287,7 @@ def deepseek_coder(prompt):
 
 def qwen2(prompt):
     # 定义服务器的地址和端口号
-    server_address = "http://10.26.42.1:8025"
+    server_address = ""
     # 定义调用的端点 URL
     endpoint_url = server_address + "/generate"
     # 定义要发送的数据（prompt）
