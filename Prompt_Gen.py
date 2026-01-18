@@ -1,5 +1,5 @@
 from tools import gemini_api,read_json,write_dict_to_json,create_directory,read_txt
-import pandas as pd
+# import pandas as pd
 # from retrieval import api_recall,db_create
 import os
 # from langchain.embeddings import HuggingFaceBgeEmbeddings
@@ -64,6 +64,7 @@ var font = range.font;
 
 
 def whole_theo_prompt_gen():
+    import pandas as pd
     original_datas = read_json("../Data3.0/original_data/whole_data.json")["data_list"]
     label_datas = read_json("../Data3.0/label_data/label_result/whole_label_result.json")["data_list"]
     single_pd = pd.read_excel("../Data3.0/property.xlsx", sheet_name="whole")
@@ -142,6 +143,7 @@ def txt_prompt(number,prompt_file,user_input):
 
 def zero_shot_prompt_gen():
     for file_name,save_name in [("./dataset/test_dataset_label_result.json","./prompt_data/direct_prompt/test_0_shot_prompt.json"),("./dataset/val_dataset_label_result.json","./prompt_data/direct_prompt/val_0_shot_prompt.json")]:
+        create_directory(os.path.dirname(save_name))
         data_list = read_json(file_name)["data_list"]
         results = []
         for data in data_list:
@@ -163,6 +165,10 @@ def few_shot_prompt_gen(number, original_file, prompt_file, save_path):
     write_dict_to_json({"description": "few-shot, k = ".format(number), "data_list": results}, save_path)
 
 def error_info_prompt(result_dir, code_file, save_file):
+    if not os.path.exists(code_file):
+        print("Missing code file: {}".format(code_file))
+        print("Please generate it first or update method_name_list/model_name_list.")
+        return
     data_list = read_json(code_file)["list"]
     error_samples = []
     for data in data_list:
@@ -254,9 +260,10 @@ def refine_prompt():
     # method_name_list = ["RAG_few_shot/e5_15/17_shot"]
     # method_name_list = ["few_shot/17_shot","doc_prompt/e5_20","RAG_few_shot/e5_15/17_shot","self_debug"]
     method_name_list = ["direct_prompt"]
+    model_name_list = ["gpt4"]
     # model_name_list =["gemini_pro", "gpt35", "deepseek_v2", "deepseek_coder", "qwen_turbo","gpt4"]
-    model_name_list = ["qwen2","codeqwen","llama3"]
-    model_name_list = ["qwen2",]
+    # model_name_list = ["qwen2","codeqwen","llama3"]
+    # model_name_list = ["qwen2",]
     for method_name in method_name_list:
         for model_name in model_name_list:
             result_dir = "./code_result/{}/{}/{}".format(dataset, model_name, method_name)
@@ -275,8 +282,9 @@ def refine2_prompt():
     # model_name_list = ["gemini_pro", "gpt35", "deepseek_v2", "deepseek_coder", "qwen_turbo","codeqwen","gpt4","llama3"]
     # model_name_list = ["gpt35", "deepseek_v2", "deepseek_coder", "qwen_turbo"]
     # model_name_list = ["qwen2","codeqwen","llama3"]
-    model_name_list = ["codeqwen"]
+    # model_name_list = ["codeqwen"]
     method_name_list = ["direct_prompt_refine1"]
+    model_name_list = ["gpt4"]
     # model_name_list = ["gemini_pro", "gpt35", "deepseek_v2", "deepseek_coder", "qwen_turbo", "gpt4"]
     for method_name in method_name_list:
         for model_name in model_name_list:
@@ -311,9 +319,10 @@ def refine3_prompt():
     # model_name_list = [ "gpt35", "deepseek_v2", "deepseek_coder", "qwen_turbo","gpt4","gemini_pro"]
     # model_name_list= ["codeqwen"]
     # model_name_list = ["llama3","codeqwen"]
-    model_name_list = ["qwen2", "codeqwen", "llama3"]
-    model_name_list = ["codeqwen"]
+    # model_name_list = ["qwen2", "codeqwen", "llama3"]
+    # model_name_list = ["codeqwen"]
     method_name_list = ["direct_prompt_refine2"]
+    model_name_list = ["gpt4"]
     # model_name_list = ["gemini_pro", "gpt35", "deepseek_v2", "deepseek_coder", "qwen_turbo", "gpt4"]
     for method_name in method_name_list:
         for model_name in model_name_list:
@@ -324,6 +333,27 @@ def refine3_prompt():
             error_info_prompt(result_dir,
                               code_file,
                               save_file)
+
+def gpt_only_refine_prompt(stage=1):
+    dataset = "Val"
+    model_name = "gpt4"
+    if stage == 1:
+        method_name = "direct_prompt"
+        save_file = "./prompt_data/refine/{}/{}/{}/refine_1.json".format(dataset, model_name, method_name)
+    elif stage == 2:
+        method_name = "direct_prompt_refine1"
+        save_file = "./prompt_data/refine/{}/{}/{}/refine_2.json".format(dataset, model_name, method_name)
+    elif stage == 3:
+        method_name = "direct_prompt_refine2"
+        save_file = "./prompt_data/refine/{}/{}/{}/refine_3.json".format(dataset, model_name, method_name)
+    else:
+        raise ValueError("stage must be 1, 2, or 3.")
+
+    result_dir = "./code_result/{}/{}/{}".format(dataset, model_name, method_name)
+    code_file = "./code_generation/{}/{}/{}_code.json".format(dataset, model_name, method_name)
+    create_directory("./prompt_data/refine/{}/{}/{}".format(dataset, model_name, method_name))
+    error_info_prompt(result_dir, code_file, save_file)
+
 
 def gemini_explore():
 
@@ -538,9 +568,14 @@ if __name__ == '__main__':
     # save_file = "./prompt_data/refine/{}/{}/refine_1.json".format(model_name, method_name)
     # error_info_prompt(result_dir,code_file,save_file)
 
+    # zero_shot_prompt_gen()
+
     # refine_prompt()
     # refine2_prompt()
-    refine3_prompt()
+    # refine3_prompt()
+    gpt_only_refine_prompt(stage=1)
+    # gpt_only_refine_prompt(stage=2)
+    # gpt_only_refine_prompt(stage=3)
 
     # gemini_explore()
 

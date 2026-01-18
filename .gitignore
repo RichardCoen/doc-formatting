@@ -1,3 +1,5 @@
+__pycache__/
+*.pyc
 add1/
 code_generation/
 code_result/

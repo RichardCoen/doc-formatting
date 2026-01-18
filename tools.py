@@ -1,13 +1,13 @@
 import json
-import google.generativeai as genai
+# import google.generativeai as genai
 from openai import OpenAI
 import requests
 import os
 import time
 from http import HTTPStatus
-import dashscope
+# import dashscope
 import shutil
-from dashscope import Generation
+# from dashscope import Generation
 def read_txt(file_name):
     try:
         with open(file_name, 'r') as file:
@@ -27,8 +27,20 @@ def read_json(file_path):
     读取 JSON 文件并返回其内容
     """
     with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
-    return data
+    #     data = json.load(file)
+    # return data
+        content = file.read()
+    content = content.lstrip("\ufeff")
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError as error:
+        trimmed = content.lstrip()
+        if trimmed.startswith("{{") or trimmed.startswith("{\n{"):
+            try:
+                return json.loads(trimmed[1:])
+            except json.JSONDecodeError:
+                pass
+        raise ValueError(f"JSON 解析失败: {file_path} ({error})") from error
 
 def create_directory(directory):
     if not os.path.exists(directory):
@@ -54,6 +66,7 @@ def copy_files(src_dir, dst_dir):
 
 
 def gemini_api(prompt):
+    import google.generativeai as genai
     generation_config = {"temperature": 0.0, "top_p": 0.0, "top_k": None}
     api_key = ''
     genai.configure(api_key=api_key, transport='rest')
@@ -73,6 +86,7 @@ def gemini_api(prompt):
             time.sleep(5)
 
 def gpt35_zz(prompt,tempetature=0.0):
+    from openai import OpenAI
     client = OpenAI(
         api_key="",
         base_url=''
@@ -103,16 +117,25 @@ def gpt35_zz(prompt,tempetature=0.0):
             time.sleep(5)
 
 def gpt4_zz(prompt,tempetature=0.0):
+    api_key = os.getenv("OPENAI_API_KEY", "")
+    base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+    base_url = base_url.strip().strip('"').strip("'")
+    if not api_key:
+        raise ValueError("Missing OPENAI_API_KEY environment variable.")
+    if not base_url.startswith(("http://", "https://")):
+        raise ValueError(f"OPENAI_BASE_URL must include http:// or https:// (got: {base_url!r})")
     client = OpenAI(
-        api_key="",
-        base_url = ''
+    #     api_key="",
+    #     base_url = ''
+        api_key = api_key,
+        base_url = base_url
     )
     processed_flag = False
     while not processed_flag:
         try:
             completion = client.chat.completions.create(
-                model="gpt-4-turbo-2024-04-09",
-                # model="gpt-4o",
+                # model="gpt-4-turbo-2024-04-09",
+                model="openai/gpt-4o",
                 temperature=tempetature,
                 top_p=0.0,
                 messages=[
@@ -133,6 +156,7 @@ def gpt4_zz(prompt,tempetature=0.0):
 
 
 def gpt4_preview(prompt,tempetature=0.0):
+    from openai import OpenAI
     client = OpenAI(
         api_key="",
         base_url = ''
@@ -141,8 +165,8 @@ def gpt4_preview(prompt,tempetature=0.0):
     while not processed_flag:
         try:
             completion = client.chat.completions.create(
-                model="gpt-4-1106-preview",
-                # model="gpt-4o",
+                # model="gpt-4-1106-preview",
+                model="gpt-4o",
                 temperature=tempetature,
                 top_p=0.0,
                 messages=[
@@ -160,6 +184,7 @@ def gpt4_preview(prompt,tempetature=0.0):
             print('Error! Sleep')
 
 def qwen_turbo(prompt):
+    import dashscope
     dashscope.api_key = ""
     processed_flag = False
     while not processed_flag:
